@@ -8,27 +8,40 @@
 
 /* Activate sidenote when hovering over the number */
 .sidenote-wrapper:hover .sidenote {
-  background: linear-gradient(135deg, #ffeef0 0%, #ffe6e8 100%);
-  border-left: 3px solid #dc143c;
+  background-color: rgba(185, 28, 44, 0.06);
+  border-left: 3px solid #b91c2c;
   border-radius: 4px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 /* Activate footnote number when hovering over the wrapper (either number or sidenote) */
 .sidenote-wrapper:hover .sidenote-number {
-  color: #dc143c;
+  color: #b91c2c;
   transform: scale(1.1);
+}
+
+/* Alternative: Highlight the entire sentence more subtly */
+p:has(.sidenote-wrapper:hover) {
+  background-color: rgba(185, 28, 44, 0.06);
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+  margin: -0.2em -0.4em;
+  transition: all 0.3s ease;
 }
 
 .sidenote {
   padding: 0.5rem 0.75rem;
   transition: all 0.3s ease;
   font-size: 0.9rem;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .sidenote:hover {
-  background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
-  border-left: 3px solid #fc8d59;
+  background-color: rgba(185, 28, 44, 0.06);
+  border-left: 3px solid #b91c2c;
   border-radius: 4px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
@@ -38,6 +51,9 @@
   text-decoration: none;
   border-bottom: 1px dotted #2166ac;
   transition: all 0.2s ease;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow-wrap: break-word;
 }
 
 .sidenote a:hover {
