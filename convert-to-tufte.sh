@@ -19,11 +19,11 @@ pandoc -s \
   --section-divs \
   --wrap=none \
   --columns=65 \
-  --template=tufte-template.html \
+  --template=assets/conversion/tufte-template.html \
   --output="$OUTPUT" \
   "$INPUT"
 
 # Post-process to fix heading levels and structure
-python3 fix-tufte-structure.py "$OUTPUT"
+python3 assets/conversion/fix-tufte-structure.py "$OUTPUT"
 
 echo "Converted $INPUT to $OUTPUT with Tufte styling and post-processed structure"

@@ -1,0 +1,115 @@
+% reformstyle-mobile.sty - Mobile-optimized LaTeX style package for Reform Chinese Culture
+% Optimized for mobile viewing and web conversion
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{reformstyle-mobile}[2025/01/15 Reform Chinese Culture Mobile-Optimized Style Package]
+
+% Required packages
+\RequirePackage{fontspec}
+\RequirePackage[UTF8]{ctex}
+\RequirePackage{hyperref}
+\RequirePackage{geometry}
+\RequirePackage{fancyhdr}
+\RequirePackage{titlesec}
+\RequirePackage{xcolor}
+\RequirePackage{setspace}
+
+% Mobile-friendly Chinese fonts with fallbacks
+\setCJKmainfont{Songti SC}[
+    BoldFont=Songti SC Bold,
+    ItalicFont=Kaiti SC,
+    Scale=1.0
+]
+\setCJKsansfont{PingFang SC}[Scale=0.95]
+\setCJKmonofont{Heiti SC}[Scale=0.9]
+
+% Mobile-optimized page geometry
+\geometry{
+    papersize={5.5in,8.5in},  % Mobile-friendly aspect ratio
+    margin=0.75in,            % Smaller margins for mobile
+    includeheadfoot=false,
+    heightrounded
+}
+
+% High contrast colors for mobile readability
+\definecolor{titlecolor}{RGB}{30, 50, 70}      % Darker for better contrast
+\definecolor{subtitlecolor}{RGB}{100, 120, 140} % Improved readability
+\definecolor{linkcolor}{RGB}{0, 102, 204}      % Web-safe blue
+\definecolor{textcolor}{RGB}{33, 33, 33}       % Near-black for readability
+
+% Simplified page style for mobile
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[C]{\small\thepage}
+
+% Mobile-optimized section formatting
+\titleformat{\section}[hang]%
+{\large\bfseries\color{titlecolor}}%
+{\thesection.}{0.4em}{}%
+[\vspace{0.5em}]
+
+\titleformat{\subsection}[hang]%
+{\normalsize\bfseries\color{titlecolor}}%
+{\thesubsection.}{0.4em}{}%
+[\vspace{0.3em}]
+
+% Enhanced hyperlink setup for mobile
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkcolor,
+    urlcolor=linkcolor,
+    citecolor=linkcolor,
+    filecolor=linkcolor,
+    pdfborder={0 0 0},        % Remove borders
+    pdfpagemode=UseNone,      % Don't show bookmarks panel
+    pdftoolbar=false,         % Hide toolbar
+    pdfmenubar=false,         % Hide menu bar
+    pdfstartview=FitH         % Fit to width
+}
+
+% Mobile typography settings
+\setlength{\parskip}{0.8em}           % Comfortable paragraph spacing
+\setlength{\parindent}{0pt}           % No indentation for mobile
+\renewcommand{\baselinestretch}{1.3}   % Better line spacing for mobile
+\setlength{\columnsep}{1em}           % Column separation if needed
+
+% Mobile-friendly footnote styling
+\renewcommand{\footnotesize}{\small}
+\setlength{\footnotesep}{0.7em}
+
+% Custom commands for mobile-optimized formatting
+\newcommand{\doctitle}[1]{%
+    \begin{center}
+        {\LARGE\bfseries\color{titlecolor} #1}\\[0.4cm]
+    \end{center}
+    \vspace{1em}
+}
+
+\newcommand{\docsubtitle}[1]{%
+    {\large\color{subtitlecolor} #1}\\[0.5cm]
+}
+
+\newcommand{\reformcopyright}[1]{%
+    \vspace{1.5em}
+    \begin{center}
+        \small\textit{© #1 Union for Reform Chinese Culture. All rights reserved.}
+    \end{center}
+}
+
+% Mobile-friendly text breaking
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+% Responsive image handling (if needed)
+\newcommand{\mobileimg}[2][0.9\textwidth]{%
+    \begin{center}
+        \includegraphics[width=#1]{#2}
+    \end{center}
+}
+
+% End of package
+\endinput
