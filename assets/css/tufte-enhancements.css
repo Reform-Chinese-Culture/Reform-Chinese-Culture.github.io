@@ -1,6 +1,6 @@
 /* Interactive and colorful sidenotes */
 .sidenote-number {
-  color: #888;
+  color: #999;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -8,15 +8,15 @@
 
 /* Activate sidenote when hovering over the number */
 .sidenote-wrapper:hover .sidenote {
-  background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
-  border-left: 3px solid #fc8d59;
+  background: linear-gradient(135deg, #ffeef0 0%, #ffe6e8 100%);
+  border-left: 3px solid #dc143c;
   border-radius: 4px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 /* Activate footnote number when hovering over the wrapper (either number or sidenote) */
 .sidenote-wrapper:hover .sidenote-number {
-  color: #d73027;
+  color: #dc143c;
   transform: scale(1.1);
 }
 
