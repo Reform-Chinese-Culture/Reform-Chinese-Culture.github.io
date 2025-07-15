@@ -20,17 +20,32 @@ def fix_tufte_structure(html_content):
         html_content
     )
     
-    # Convert h1 to h2 for content sections (but not the main title)
+    # Convert h1 to h2 for content sections (but preserve main title)
+    # First, protect the main title by temporarily marking it
+    html_content = re.sub(
+        r'    <h1>Reform Chinese Culture</h1>',
+        r'    <h1>MAIN_TITLE_PLACEHOLDER</h1>',
+        html_content
+    )
+    
+    # Convert all other h1 elements to h2
     html_content = re.sub(
         r'    <h1 id="[^"]*">([^<]+)</h1>',
         r'      <h2>\1</h2>',
         html_content
     )
     
-    # Also catch h1 without id
+    # Also catch h1 without id (but not the placeholder)
     html_content = re.sub(
-        r'    <h1>([^<]+)</h1>',
+        r'    <h1>(?!MAIN_TITLE_PLACEHOLDER)([^<]+)</h1>',
         r'      <h2>\1</h2>',
+        html_content
+    )
+    
+    # Restore the main title
+    html_content = re.sub(
+        r'    <h1>MAIN_TITLE_PLACEHOLDER</h1>',
+        r'    <h1>Reform Chinese Culture</h1>',
         html_content
     )
     
