@@ -6,17 +6,17 @@
 
 % Required packages
 \RequirePackage{fontspec}
-\RequirePackage[UTF8]{ctex}
+\RequirePackage[UTF8, fontset=none]{ctex}
 \RequirePackage{hyperref}
 \RequirePackage{geometry}
 \RequirePackage{fancyhdr}
 \RequirePackage{titlesec}
 \RequirePackage{xcolor}
 
-% Set Chinese fonts for macOS
-\setCJKmainfont{Songti SC}  % For main text
-\setCJKsansfont{PingFang SC}  % For sans-serif
-\setCJKmonofont{Heiti SC}  % For monospace
+% Set Chinese fonts for macOS with explicit font settings
+\setCJKmainfont[BoldFont={Songti SC Black}, ItalicFont={Songti SC Light}]{Songti SC}
+\setCJKsansfont[BoldFont={PingFang SC Semibold}]{PingFang SC}
+\setCJKmonofont{Heiti SC Medium}
 
 % Page geometry
 \geometry{
