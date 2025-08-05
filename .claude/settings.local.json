@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(./convert-to-tufte.sh:*)",
+      "Bash(grep:*)"
     ],
     "deny": []
   }

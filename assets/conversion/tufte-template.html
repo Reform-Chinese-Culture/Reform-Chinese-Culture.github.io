@@ -31,6 +31,11 @@ $endif$
       vertical-align: middle;
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    h1 {
+      word-wrap: break-word;
+      hyphens: auto;
+      line-height: 1.2;
+    }
   </style>
 $for(css)$
   <link rel="stylesheet" href="$css$" />
@@ -44,11 +49,11 @@ $endfor$
 </head>
 <body>
   <article>
-    <h1>$if(title)$$title$$else$Reform Chinese Culture$endif$</h1>
+$if(title)$
+    <h1>$title$</h1>
+$endif$
 $if(subtitle)$
     <p class="subtitle">$subtitle$</p>
-$else$
-    <p class="subtitle">For All Voices, In All Places</p>
 $endif$
 $if(author)$
     <p class="author">$for(author)$$author$$sep$, $endfor$</p>
