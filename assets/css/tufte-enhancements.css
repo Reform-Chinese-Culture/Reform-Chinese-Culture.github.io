@@ -6,27 +6,17 @@
   transition: all 0.3s ease;
 }
 
-/* Activate sidenote when hovering over the number */
+/* Show red color for both sidenote and number when hovering either */
 .sidenote-wrapper:hover .sidenote {
-  background-color: rgba(185, 28, 44, 0.06);
-  border-left: 3px solid #b91c2c;
-  border-radius: 4px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  color: #b91c2c;
 }
 
-/* Activate footnote number when hovering over the wrapper (either number or sidenote) */
 .sidenote-wrapper:hover .sidenote-number {
   color: #b91c2c;
-  transform: scale(1.1);
 }
 
 /* Alternative: Highlight the entire sentence more subtly */
 p:has(.sidenote-wrapper:hover) {
-  background-color: rgba(185, 28, 44, 0.06);
-  border-radius: 4px;
-  padding: 0.2em 0.4em;
-  margin: -0.2em -0.4em;
-  transition: all 0.3s ease;
 }
 
 .sidenote {
@@ -39,12 +29,6 @@ p:has(.sidenote-wrapper:hover) {
   hyphens: auto;
 }
 
-.sidenote:hover {
-  background-color: rgba(185, 28, 44, 0.06);
-  border-left: 3px solid #b91c2c;
-  border-radius: 4px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-}
 
 .sidenote a {
   color: #2166ac;
