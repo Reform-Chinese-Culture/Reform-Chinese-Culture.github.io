@@ -69,3 +69,23 @@ p:has(.sidenote-wrapper:hover) {
   color: #2166ac;
   font-weight: 500;
 }
+
+/* Home button styling */
+.home-button {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.home-button a {
+  color: #000 !important;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid #b91c2c;
+}
+
+.home-button a:hover {
+  color: #000 !important;
+  text-decoration: none;
+  border-bottom: 2px solid #8b1538;
+}
