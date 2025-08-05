@@ -29,7 +29,7 @@
 
 % Color definitions
 \definecolor{titlecolor}{RGB}{44, 62, 80}
-\definecolor{subtitlecolor}{RGB}{127, 140, 141}
+\definecolor{datecolor}{RGB}{127, 140, 141}
 
 % Page style
 \pagestyle{fancy}
@@ -57,13 +57,23 @@
 % Custom commands for consistent formatting
 \newcommand{\doctitle}[1]{%
     \begin{center}
-        {\Huge\bfseries\color{titlecolor} #1}\\[0.5cm]
+        {\Huge\bfseries\color{titlecolor} #1}
     \end{center}
-    \vspace{0.5cm}
+%    \vspace{0.001cm}
 }
 
 \newcommand{\docsubtitle}[1]{%
-    {\Large\color{subtitlecolor} #1}\\[1cm]
+    \begin{center}
+        {\huge\bfseries\itshape\color{titlecolor} #1}
+    \end{center}
+%    \vspace{0.001cm}
+}
+
+\newcommand{\docdate}[1]{%
+    \begin{center}
+        {\large\itshape\color{titlecolor} #1}
+    \end{center}
+   \vspace{0.001cm}
 }
 
 \newcommand{\reformcopyright}[1]{%
@@ -73,12 +83,13 @@
     \end{center}
 }
 
-% Preamble environment for italic introductory text
+% Preamble environment for introductory text
 \newenvironment{preamble}{%
-    \vspace{0.5cm}
-    \itshape
-    \let\textit\textup
+    \vspace{1cm}
+    \begin{itshape}
+    \renewcommand{\textit}[1]{\textnormal{##1}}
 }{%
+    \end{itshape}
     \vspace{1cm}
 }
 

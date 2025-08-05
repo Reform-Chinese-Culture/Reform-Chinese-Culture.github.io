@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(find:*)",
-      "Bash(ls:*)"
+      "Bash(./convert-to-tufte.sh:*)",
+      "Bash(grep:*)",
+      "WebFetch(domain:rstudio.github.io)"
     ],
     "deny": []
   }

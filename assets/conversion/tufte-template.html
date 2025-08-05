@@ -31,6 +31,44 @@ $endif$
       vertical-align: middle;
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    h1 {
+      word-wrap: break-word;
+      hyphens: auto;
+      line-height: 1.2;
+    }
+    .subtitle {
+      text-align: left;
+      font-size: 2rem;
+      font-style: italic;
+    }
+    .date {
+      text-align: left;
+      /* color: #7f8c8d; */
+      font-size: 1.5rem;
+      /* margin: 0.5rem 0 2rem 0; */
+    }
+    .preamble {
+      font-style: italic;
+      margin: 1rem 0 2rem 0;
+      padding: 1rem;
+      /* background-color: #fafafa; */
+      /* border-left: 3px solid #e0e0e0; */
+      max-width: 55%;
+      box-sizing: border-box;
+    }
+    .preamble em,
+    .preamble i {
+      font-style: normal;
+      font-weight: normal;
+    }
+    /* Ensure all links are consistently styled */
+    a, a:visited {
+      color: #0000EE !important;
+      text-decoration: underline;
+    }
+    a:hover {
+      color: #551A8B !important;
+    }
   </style>
 $for(css)$
   <link rel="stylesheet" href="$css$" />
@@ -44,17 +82,18 @@ $endfor$
 </head>
 <body>
   <article>
-    <h1>$if(title)$$title$$else$Reform Chinese Culture$endif$</h1>
+$if(title)$
+    <h1>$title$</h1>
+$endif$
 $if(subtitle)$
     <p class="subtitle">$subtitle$</p>
-$else$
-    <p class="subtitle">For All Voices, In All Places</p>
-$endif$
-$if(author)$
-    <p class="author">$for(author)$$author$$sep$, $endfor$</p>
 $endif$
 $if(date)$
     <p class="date">$date$</p>
+$endif$
+    <p class="home-button"><a href="index.html">Home</a></p>
+$if(author)$
+    <p class="author">$for(author)$$author$$sep$, $endfor$</p>
 $endif$
 $if(abstract)$
     <section>

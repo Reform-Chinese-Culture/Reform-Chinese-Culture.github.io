@@ -20,6 +20,21 @@ def fix_tufte_structure(html_content):
         html_content
     )
     
+    # If there are no sections but there are paragraphs after title/subtitle, wrap them in a section
+    if '<section>' not in html_content and '<p>' in html_content:
+        # Find content within the article that needs to be wrapped, but preserve preamble divs
+        pattern = r'(<article>\s*(?:<h1>.*?</h1>\s*)?(?:<p class="subtitle">.*?</p>\s*)?(?:<p class="date">.*?</p>\s*)?(?:<div class="preamble">.*?</div>\s*)?)((?:\s*<p>.*?</p>)+)(\s*</article>)'
+        
+        def wrap_content(match):
+            article_start = match.group(1)
+            paragraphs = match.group(2)
+            article_end = match.group(3)
+            
+            # Wrap the paragraphs in a section
+            return f"{article_start}    <section>{paragraphs}\n    </section>{article_end}"
+        
+        html_content = re.sub(pattern, wrap_content, html_content, flags=re.DOTALL)
+    
     # Convert h1 to h2 for content sections (but preserve main title)
     # First, protect the main title by temporarily marking it
     html_content = re.sub(
