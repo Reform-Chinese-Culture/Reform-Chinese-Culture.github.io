@@ -45,15 +45,24 @@ html {
 }
 
 body {
-    width: 87.5%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 12.5%;
+    width: 87.5% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 12.5% !important;
     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     background-color: #fffff8;
     color: #111;
-    max-width: 1400px;
+    max-width: 1400px !important;
     counter-reset: sidenote-counter;
+}
+
+/* Override Pandoc's default full-width styling */
+html body {
+    width: 87.5% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 12.5% !important;
+    max-width: 1400px !important;
 }
 
 /* Adds dark mode */

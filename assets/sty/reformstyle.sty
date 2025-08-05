@@ -59,7 +59,7 @@
     \begin{center}
         {\Huge\bfseries\color{titlecolor} #1}\\[0.5cm]
     \end{center}
-    \vspace{2cm}
+    \vspace{0.5cm}
 }
 
 \newcommand{\docsubtitle}[1]{%
@@ -71,6 +71,15 @@
     \begin{center}
         \textit{© #1 Union for Reform Chinese Culture. All rights reserved.}
     \end{center}
+}
+
+% Preamble environment for italic introductory text
+\newenvironment{preamble}{%
+    \vspace{0.5cm}
+    \itshape
+    \let\textit\textup
+}{%
+    \vspace{1cm}
 }
 
 % End of package

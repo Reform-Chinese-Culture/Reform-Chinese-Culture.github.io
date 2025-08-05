@@ -13,7 +13,7 @@ pandoc -s \
   --mathjax \
   --filter pandoc-sidenote \
   --css assets/css/tufte.css \
-  --css assets/css/tufte-enhancements.css \
+  --css assets/css/tufte-hover-new.css \
   --metadata pagetitle="$TITLE" \
   --metadata lang="en" \
   --section-divs \
