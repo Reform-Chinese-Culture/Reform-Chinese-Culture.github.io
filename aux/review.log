@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  4 AUG 2025 17:57
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  4 AUG 2025 18:15
  system commands enabled.
  file:line:error style messages enabled.
 **/Users/brandonlu/Reform-Chinese-Culture.github.io/review
@@ -733,22 +733,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-LaTeX Font Info:    Font shape `LTJY3/SongtiSC(0)/bx/n' in size <17.28> not available
-(Font)              Font shape `LTJY3/SongtiSC(0)/b/n' tried instead on input line 15.
 (load cache: extra_lmroman12-italic.luc)(load cache: extra_lmroman8-regular.luc)(load cache: extra_lmroman6-regular.luc)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 18.
+(Font)              <12> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 18.
+(Font)              <8> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 18.
+(Font)              <6> on input line 16.
 (load cache: extra_lmroman7-regular.luc)(load cache: extra_lmroman5-regular.luc)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 18.
+(Font)              <7> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 18.
+(Font)              <5> on input line 16.
 (load cache: extra_lmroman10-italic.luc)
-Overfull \hbox (2.99371pt too wide) in paragraph at lines 23--24
+Overfull \hbox (2.99371pt too wide) in paragraph at lines 21--22
 \TU/lmr/m/n/12 anal-y-sis and back-ground in-for-ma-tion on Ne-olib-er-al-ism, Jef-fer-so-ni-an-ism ver-sus Hamil-
  []
 
@@ -759,13 +757,13 @@ Overfull \hbox (2.99371pt too wide) in paragraph at lines 23--24
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 [2]
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
 [][][][][]\TU/lmr/m/n/10 https://www.gov.uk/gov-ern-ment/news/16-year-olds-to-be-given-right-to-vote-through-
  []
 
 
+
+[3]
 
 [4]
 
@@ -781,23 +779,23 @@ L3 programming layer <2022/07/14>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `review.out' has not changed.
-(rerunfilecheck)             Checksum: 9814C2D956916ADB9290ECA4E25C967A;103.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 15488 strings out of 475506
- 156265,953878 words of node,token memory allocated
+ 15477 strings out of 475506
+ 195325,953878 words of node,token memory allocated
  1223 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 21 glue, 3 kern, 1 glyph, 277 attribute, 57 glue_spec, 31 attribute_list, 1 write, 6 user_defined, 1 pdf_action nodes
-   avail lists: 1:2,2:42043,3:205,4:387,5:434,6:56,7:7122,8:2,9:444,10:16,11:557
- 38180 multiletter control sequences out of 65536+600000
- 67 fonts using 117861055 bytes
- 105i,12n,110p,1246b,391s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 1:2,2:49825,3:209,4:428,5:486,6:62,7:8366,8:2,9:502,10:16,11:639
+ 38170 multiletter control sequences out of 65536+600000
+ 65 fonts using 116363279 bytes
+ 105i,11n,110p,1246b,391s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </System/Library/Fonts/Supplemental/Songti.ttc></System/Library/Fonts/Supplemental/Songti.ttc></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on review.pdf (6 pages, 342637 bytes).
+Output written on review.pdf (6 pages, 342139 bytes).
 
-PDF statistics: 163 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 131072)
- 9 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 158 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
