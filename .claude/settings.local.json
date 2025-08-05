@@ -3,7 +3,8 @@
     "allow": [
       "Bash(find:*)",
       "Bash(./convert-to-tufte.sh:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "WebFetch(domain:rstudio.github.io)"
     ],
     "deny": []
   }

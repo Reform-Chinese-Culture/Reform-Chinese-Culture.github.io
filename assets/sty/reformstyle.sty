@@ -57,13 +57,23 @@
 % Custom commands for consistent formatting
 \newcommand{\doctitle}[1]{%
     \begin{center}
-        {\Huge\bfseries\color{titlecolor} #1}\\[0.5cm]
+        {\Huge\bfseries\color{titlecolor} #1}
     \end{center}
-    \vspace{2cm}
+   \vspace{0.001cm}
 }
 
 \newcommand{\docsubtitle}[1]{%
-    {\Large\color{subtitlecolor} #1}\\[1cm]
+    \begin{center}
+        {\Large\itshape\color{subtitlecolor} #1}
+    \end{center}
+    \vspace{0.002cm}
+}
+
+\newcommand{\docdate}[1]{%
+    \begin{center}
+        {\normalsize\color{subtitlecolor} #1}
+    \end{center}
+    \vspace{0.05cm}
 }
 
 \newcommand{\reformcopyright}[1]{%
