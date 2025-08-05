@@ -29,7 +29,7 @@
 
 % Color definitions
 \definecolor{titlecolor}{RGB}{44, 62, 80}
-\definecolor{subtitlecolor}{RGB}{127, 140, 141}
+\definecolor{datecolor}{RGB}{127, 140, 141}
 
 % Page style
 \pagestyle{fancy}
@@ -59,21 +59,21 @@
     \begin{center}
         {\Huge\bfseries\color{titlecolor} #1}
     \end{center}
-   \vspace{0.001cm}
+%    \vspace{0.001cm}
 }
 
 \newcommand{\docsubtitle}[1]{%
     \begin{center}
-        {\Large\itshape\color{subtitlecolor} #1}
+        {\Large\itshape\color{titlecolor} #1}
     \end{center}
-    \vspace{0.002cm}
+%    \vspace{0.001cm}
 }
 
 \newcommand{\docdate}[1]{%
     \begin{center}
-        {\normalsize\color{subtitlecolor} #1}
+        {\color{datecolor} #1}
     \end{center}
-    \vspace{0.05cm}
+   \vspace{0.001cm}
 }
 
 \newcommand{\reformcopyright}[1]{%
