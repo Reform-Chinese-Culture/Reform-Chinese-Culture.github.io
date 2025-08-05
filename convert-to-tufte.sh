@@ -36,6 +36,8 @@ eval pandoc -s \
   --output="$OUTPUT" \
   "$INPUT"
 
+# --smart
+
 # Post-process to convert LaTeX formatting in title
 sed -i '' 's/\\textit{\([^}]*\)}/<em>\1<\/em>/g' "$OUTPUT"
 sed -i '' 's/\\textbf{\([^}]*\)}/<strong>\1<\/strong>/g' "$OUTPUT"
