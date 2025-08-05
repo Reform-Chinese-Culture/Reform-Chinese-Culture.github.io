@@ -83,5 +83,15 @@
     \end{center}
 }
 
+% Preamble environment for introductory text
+\newenvironment{preamble}{%
+    \vspace{1cm}
+    \begin{itshape}
+    \renewcommand{\textit}[1]{\textnormal{##1}}
+}{%
+    \end{itshape}
+    \vspace{1cm}
+}
+
 % End of package
 \endinput

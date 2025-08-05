@@ -36,6 +36,26 @@ $endif$
       hyphens: auto;
       line-height: 1.2;
     }
+    .date {
+      text-align: center;
+      color: #7f8c8d;
+      font-size: 1rem;
+      margin: 0.5rem 0 2rem 0;
+    }
+    .preamble {
+      font-style: italic;
+      margin: 1rem 0 2rem 0;
+      padding: 1rem;
+      background-color: #fafafa;
+      border-left: 3px solid #e0e0e0;
+      max-width: 55%;
+      box-sizing: border-box;
+    }
+    .preamble em,
+    .preamble i {
+      font-style: normal;
+      font-weight: normal;
+    }
   </style>
 $for(css)$
   <link rel="stylesheet" href="$css$" />
@@ -55,11 +75,11 @@ $endif$
 $if(subtitle)$
     <p class="subtitle">$subtitle$</p>
 $endif$
-$if(author)$
-    <p class="author">$for(author)$$author$$sep$, $endfor$</p>
-$endif$
 $if(date)$
     <p class="date">$date$</p>
+$endif$
+$if(author)$
+    <p class="author">$for(author)$$author$$sep$, $endfor$</p>
 $endif$
 $if(abstract)$
     <section>

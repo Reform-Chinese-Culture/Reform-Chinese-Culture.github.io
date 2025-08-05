@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  4 AUG 2025 18:38
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  4 AUG 2025 19:05
  system commands enabled.
  file:line:error style messages enabled.
 **/Users/brandonlu/Reform-Chinese-Culture.github.io/index
@@ -745,33 +745,24 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/07/14>
  ***********
-
-
-Package rerunfilecheck Warning: File `index.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `index.out':
-(rerunfilecheck)             Before: D925EA461A7EC4DED495BE8A6E044EC7;371
-(rerunfilecheck)             After:  D2C7F9A1DBD8D4E98342354A735873AF;161.
+Package rerunfilecheck Info: File `index.out' has not changed.
+(rerunfilecheck)             Checksum: D2C7F9A1DBD8D4E98342354A735873AF;161.
 )
 
 Here is how much of LuaTeX's memory you used:
- 15466 strings out of 475506
+ 15467 strings out of 475506
  100000,953878 words of node,token memory allocated
  665 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 3 glue, 3 kern, 1 glyph, 79 attribute, 57 glue_spec, 13 attribute_list, 1 write, 6 user_defined, 1 pdf_action nodes
-   avail lists: 1:2,2:10672,3:162,4:290,5:175,6:44,7:2288,8:2,9:287,10:10,11:166
- 38179 multiletter control sequences out of 65536+600000
+   avail lists: 1:2,2:10864,3:162,4:290,5:178,6:44,7:2348,8:2,9:287,10:10,11:169
+ 38181 multiletter control sequences out of 65536+600000
  66 fonts using 117729047 bytes
  105i,11n,110p,808b,391s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-warning  (pdf backend): unreferenced destination with name 'section.3'
 </usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on index.pdf (1 page, 22726 bytes).
+Output written on index.pdf (1 page, 23250 bytes).
 
-PDF statistics: 74 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 131072)
- 25 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 70 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 131072)
+ 17 words of extra memory for PDF output out of 10000 (max. 100000000)
 
