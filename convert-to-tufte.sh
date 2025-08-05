@@ -39,6 +39,7 @@ eval pandoc -s \
 # Post-process to convert LaTeX formatting in title
 sed -i '' 's/\\textit{\([^}]*\)}/<em>\1<\/em>/g' "$OUTPUT"
 sed -i '' 's/\\textbf{\([^}]*\)}/<strong>\1<\/strong>/g' "$OUTPUT"
+sed -i '' 's/\\textemdash{}/—/g' "$OUTPUT"
 
 # Post-process to handle preamble environment - create a separate Python script
 cat > /tmp/fix_preamble.py << 'EOF'
