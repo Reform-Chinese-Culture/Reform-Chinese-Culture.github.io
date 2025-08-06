@@ -45,7 +45,6 @@ p.date {
 /* Epigraph sidenote styling */
 div.epigraph .sidenote {
   font-style: normal;
-  /* Remove italic from footnotes */
 }
 
 div.epigraph .sidenote-number {
