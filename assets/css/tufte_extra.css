@@ -51,22 +51,73 @@ div.epigraph .sidenote-number {
   font-style: normal;
 }
 
-/* Hover effects for sidenotes */
+/* Twinkling animation - plays once */
+@keyframes twinkle {
+  0% { opacity: 1; transform: scale(1); }
+  25% { opacity: 0.7; transform: scale(1.1); }
+  50% { opacity: 0.4; transform: scale(1.2); }
+  75% { opacity: 0.7; transform: scale(1.1); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+/* Hover effects for sidenotes - complete font style inversion */
 label.sidenote-number:hover {
   color: crimson;
   cursor: pointer;
+  font-style: italic;
 }
 
-/* Sidenote content hover effects */
+/* Twinkle the footnote number when hovering over the sidenote wrapper */
+.sidenote-wrapper:hover .sidenote-number {
+  color: crimson;
+  font-style: italic;
+  animation: twinkle 0.8s ease-in-out;
+}
+
 .sidenote:hover {
   color: crimson;
+  font-style: italic;
 }
 
-/* Connected hover effects using wrapper */
 .sidenote-wrapper:hover .sidenote {
   color: crimson;
+  font-style: italic;
 }
 
 .sidenote-wrapper:hover .sidenote-number {
   color: crimson;
+  font-style: italic;
+}
+
+/* For elements that are normally normal, make them italic on hover */
+.sidenote-wrapper:hover .sidenote * {
+  font-style: italic;
+}
+
+/* Force em and i tags to be normal on hover (invert their italic) */
+.sidenote-wrapper:hover .sidenote em,
+.sidenote-wrapper:hover .sidenote i {
+  font-style: normal;
+}
+
+/* Special handling for epigraph sidenotes (which start as normal) */
+/* Override the base sidenote hover to keep them italic */
+div.epigraph .sidenote-wrapper:hover .sidenote {
+  color: crimson;
+  font-style: italic;
+}
+
+div.epigraph .sidenote-wrapper:hover .sidenote-number {
+  color: crimson;
+  font-style: italic;
+}
+
+/* But their normally normal elements should become italic, and em/i should become normal */
+div.epigraph .sidenote-wrapper:hover .sidenote * {
+  font-style: italic;
+}
+
+div.epigraph .sidenote-wrapper:hover .sidenote em,
+div.epigraph .sidenote-wrapper:hover .sidenote i {
+  font-style: normal;
 }
