@@ -4,7 +4,8 @@
       "Bash(find:*)",
       "Bash(./convert-to-tufte.sh:*)",
       "Bash(grep:*)",
-      "WebFetch(domain:rstudio.github.io)"
+      "WebFetch(domain:rstudio.github.io)",
+      "Bash(mkdir:*)"
     ],
     "deny": []
   }
