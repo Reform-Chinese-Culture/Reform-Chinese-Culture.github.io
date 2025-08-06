@@ -1,20 +1,8 @@
 function RawInline(elem)
   if elem.format == "tex" then
-    if elem.text:match("\\reformcopyright") then
-      return pandoc.RawInline('html', '<footer class="reform-copyright">© 2025</footer>')
-    elseif elem.text:match("\\subtitle") then
+    if elem.text:match("\\subtitle") then
       local subtitle = elem.text:match("\\subtitle{(.*)}")
       return pandoc.RawInline('html', '<p class="subtitle">' .. subtitle .. '</p>')
-    end
-  end
-end
-
-function RawBlock(elem)
-  if elem.format == "tex" then
-    if elem.text:match("\\begin{preamble}") then
-      return pandoc.RawBlock('html', '<div class="epigraph"><blockquote>')
-    elseif elem.text:match("\\end{preamble}") then
-      return pandoc.RawBlock('html', '</blockquote></div>')
     end
   end
 end
