@@ -29,7 +29,15 @@ p.date {
 .reform-copyright {
   margin-top: 3rem;
   font-size: 0.8rem;
-  color: #666;
 }
 
-/* Subtitle styling handled by tufte.css p.subtitle */
+/* Home link styling */
+.home-link {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  text-decoration-color: crimson;
+}
+
+.home-link:hover {
+  color: crimson;
+}
