@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# BatchConvert.sh - Converts all tex files to html using the conversion program
+# pdfBatchConvert.sh - Converts all tex files to PDF using the conversion program
 
 for tex_file in *.tex; do
     if [ -f "$tex_file" ]; then
@@ -21,4 +21,4 @@ done
 
 rm -rf aux/
 
-echo "Batch conversion complete!"
+echo "Batch conversion to PDF complete! Folder aux/ removed!"

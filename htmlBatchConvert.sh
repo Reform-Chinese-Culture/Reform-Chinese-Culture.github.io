@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# BatchConvert.sh - Converts all tex files to html using the conversion program
+# htmlBatchConvert.sh - Converts all tex files to HTML using the conversion program
 
 for tex_file in *.tex; do
     if [ -f "$tex_file" ]; then
