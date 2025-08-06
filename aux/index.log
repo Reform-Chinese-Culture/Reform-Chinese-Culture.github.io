@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  6 AUG 2025 02:41
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  6 AUG 2025 02:44
  system commands enabled.
  file:line:error style messages enabled.
 **/Users/brandonlu/Reform-Chinese-Culture.github.io/index
@@ -729,21 +729,21 @@ LaTeX Font Warning: Font shape `LTJY3/SongtiSC(0)/bx/it' undefined
 LaTeX Font Info:    Font shape `LTJY3/SongtiSC(0)/bx/it' in size <24.88> not available
 (Font)              Font shape `LTJY3/SongtiSC(0)/b/n' tried instead on input line 16.
 LaTeX Font Info:    Font shape `LTJY3/SongtiSC(0)/bx/n' in size <17.28> not available
-(Font)              Font shape `LTJY3/SongtiSC(0)/b/n' tried instead on input line 18.
+(Font)              Font shape `LTJY3/SongtiSC(0)/b/n' tried instead on input line 20.
 (load cache: extra_lmroman12-italic.luc)(load cache: extra_lmroman8-regular.luc)(load cache: extra_lmroman6-regular.luc)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 27.
+(Font)              <12> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 27.
+(Font)              <8> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 27.
+(Font)              <6> on input line 29.
 (load cache: extra_lmroman7-regular.luc)(load cache: extra_lmroman5-regular.luc)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 27.
+(Font)              <7> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 27.
+(Font)              <5> on input line 29.
 
-Overfull \hbox (60.4609pt too wide) in paragraph at lines 64--65
+Overfull \hbox (60.4609pt too wide) in paragraph at lines 66--67
 []\TU/lmr/m/n/12 The web-site for-mat-ting shall be based in large part on [][]https://ed-wardtufte.github.io/tufte-
  []
 
@@ -771,15 +771,15 @@ Here is how much of LuaTeX's memory you used:
  100000,953878 words of node,token memory allocated
  756 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 4 glue, 3 kern, 1 glyph, 112 attribute, 57 glue_spec, 16 attribute_list, 1 write, 6 user_defined, 3 pdf_action nodes
-   avail lists: 1:2,2:23259,3:261,4:406,5:315,6:68,7:4742,8:2,9:434,10:10,11:325
+   avail lists: 1:2,2:23488,3:263,4:415,5:318,6:72,7:4787,8:2,9:443,10:10,11:328
  38190 multiletter control sequences out of 65536+600000
  67 fonts using 117861055 bytes
- 105i,11n,110p,808b,492s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,11n,110p,808b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on index.pdf (2 pages, 33245 bytes).
+Output written on index.pdf (2 pages, 33342 bytes).
 
-PDF statistics: 108 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+PDF statistics: 109 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  14 named destinations out of 1000 (max. 131072)
  33 words of extra memory for PDF output out of 10000 (max. 100000000)
 
