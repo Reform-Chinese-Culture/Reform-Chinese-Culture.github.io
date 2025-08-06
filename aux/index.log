@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  5 AUG 2025 19:31
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  6 AUG 2025 02:41
  system commands enabled.
  file:line:error style messages enabled.
 **/Users/brandonlu/Reform-Chinese-Culture.github.io/index
@@ -743,10 +743,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 27.
 
+Overfull \hbox (60.4609pt too wide) in paragraph at lines 64--65
+[]\TU/lmr/m/n/12 The web-site for-mat-ting shall be based in large part on [][]https://ed-wardtufte.github.io/tufte-
+ []
+
+
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/brandonlu/Reform-Chinese-Culture.github.io/aux/index.aux)
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+[2] (/Users/brandonlu/Reform-Chinese-Culture.github.io/aux/index.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/07/14>
@@ -756,23 +763,23 @@ L3 programming layer <2022/07/14>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `index.out' has not changed.
-(rerunfilecheck)             Checksum: D2C7F9A1DBD8D4E98342354A735873AF;161.
+(rerunfilecheck)             Checksum: 907C3D22EE63BB279D1F2DAB71C708D7;508.
 )
 
 Here is how much of LuaTeX's memory you used:
- 15472 strings out of 475506
+ 15485 strings out of 475506
  100000,953878 words of node,token memory allocated
- 695 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 3 glue, 3 kern, 1 glyph, 90 attribute, 57 glue_spec, 14 attribute_list, 1 write, 6 user_defined, 2 pdf_action nodes
-   avail lists: 1:2,2:13000,3:168,4:284,5:199,6:53,7:2918,8:2,9:309,10:10,11:199
- 38186 multiletter control sequences out of 65536+600000
+ 756 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 4 glue, 3 kern, 1 glyph, 112 attribute, 57 glue_spec, 16 attribute_list, 1 write, 6 user_defined, 3 pdf_action nodes
+   avail lists: 1:2,2:23259,3:261,4:406,5:315,6:68,7:4742,8:2,9:434,10:10,11:325
+ 38190 multiletter control sequences out of 65536+600000
  67 fonts using 117861055 bytes
- 105i,11n,110p,808b,391s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on index.pdf (1 page, 28600 bytes).
+ 105i,11n,110p,808b,492s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on index.pdf (2 pages, 33245 bytes).
 
-PDF statistics: 86 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 131072)
- 17 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 108 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 131072)
+ 33 words of extra memory for PDF output out of 10000 (max. 100000000)
 
