@@ -8,20 +8,11 @@ p.subtitle {
   line-height: 1;
 }
 
-p.byline {
+p.attribution {
   /* font-style: italic; */
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size: 1.5rem;
-  display: block;
-  line-height: 1;
-}
-
-p.date {
-  /* font-style: italic; */
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   display: block;
   line-height: 1;
 }
@@ -31,26 +22,18 @@ p.date {
   font-size: 0.8rem;
 }
 
-/* Home link styling */
-.home-link {
-  font-size: 1.5rem;
+/* Home link and PDF link styling */
+.reference-link {
   text-decoration: underline;
   text-decoration-color: crimson;
 }
 
-.home-link:hover {
+.reference-link:hover {
   color: crimson;
 }
 
-/* PDF link styling */
-.pdf-link {
-  font-size: 1.5rem;
-  text-decoration: underline;
-  text-decoration-color: crimson;
-}
-
-.pdf-link:hover {
-  color: crimson;
+p.text-link {
+  font-style: italic;
 }
 
 /* Epigraph sidenote styling */
@@ -64,11 +47,30 @@ div.epigraph .sidenote-number {
 
 /* Twinkling animation - plays once */
 @keyframes twinkle {
-  0% { opacity: 1; transform: scale(1); }
-  25% { opacity: 0.7; transform: scale(1.1); }
-  50% { opacity: 0.4; transform: scale(1.2); }
-  75% { opacity: 0.7; transform: scale(1.1); }
-  100% { opacity: 1; transform: scale(1); }
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  25% {
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
+
+  50% {
+    opacity: 0.4;
+    transform: scale(1.2);
+  }
+
+  75% {
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 /* Hover effects for sidenotes - complete font style inversion */

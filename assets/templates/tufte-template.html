@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +9,7 @@
   <link rel="stylesheet" href="$css$">
   $endfor$
 </head>
+
 <body>
   <article>
     <section>
@@ -16,18 +18,20 @@
       <p class="subtitle">$subtitle$</p>
       $endif$
       $if(author)$
-      <p class="byline">$for(author)$$author$$sep$, $endfor$</p>
+      <p class="attribution"><em class="written">Written by</em> $for(author)$$author$$sep$, $endfor$</p>
       $endif$
       $if(date)$
-      <p class="date">$date$</p>
+      <p class="attribution"><em class="written">Written on</em> $date$</p>
       $endif$
-      
-      <p><a href="index.html" class="home-link">Home</a></p>
-      
-      <p><a href="$filename$.pdf" class="pdf-link">$filename$.pdf</a></p>
-      
+
+      <p class="text-link">Go back <a href="index.html" class="reference-link">home</a> <br>
+        Download the <a href="$filename$.pdf" class="reference-link">$filename$.pdf</a>
+      </p>
+
+
       $body$
     </section>
   </article>
 </body>
+
 </html>
