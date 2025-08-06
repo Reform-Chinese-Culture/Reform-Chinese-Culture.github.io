@@ -41,3 +41,13 @@ p.date {
 .home-link:hover {
   color: crimson;
 }
+
+/* Epigraph sidenote styling */
+div.epigraph .sidenote {
+  font-style: normal;
+  /* Remove italic from footnotes */
+}
+
+div.epigraph .sidenote-number {
+  font-style: normal;
+}
