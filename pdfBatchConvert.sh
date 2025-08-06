@@ -19,4 +19,6 @@ for tex_file in *.tex; do
     fi
 done
 
+rm -rf aux/
+
 echo "Batch conversion complete!"

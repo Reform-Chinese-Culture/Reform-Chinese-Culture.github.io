@@ -37,14 +37,14 @@
 \renewcommand{\headrulewidth}{0pt}
 \fancyfoot[C]{\thepage}
 
-% Section formatting
-\titleformat{\section}[hang]
-{\Large\bfseries\color{titlecolor}}
-{\thesection.}{0.5em}{}
+% % Section formatting
+% \titleformat{\section}[hang]
+% {\Large\bfseries\color{titlecolor}}
+% {\thesection.}{0.5em}{}
 
-\titleformat{\subsection}[hang]
-{\large\bfseries\color{titlecolor}}
-{\thesubsection.}{0.5em}{}
+% \titleformat{\subsection}[hang]
+% {\large\bfseries\color{titlecolor}}
+% {\thesubsection.}{0.5em}{}
 
 % Hyperlink setup
 \hypersetup{
@@ -81,31 +81,5 @@
         \textit{© #1 Union for Reform Chinese Culture. All rights reserved.}
     \end{center}
 }
-
-% Custom commands for consistent formatting
-\newcommand{\doctitle}[1]{%
-    \begin{center}
-        % {\Huge\bfseries\color{titlecolor} #1}
-        {\Huge\bfseries #1}
-    \end{center}
-%    \vspace{0.001cm}
-}
-
-\newcommand{\docsubtitle}[1]{%
-    \begin{center}
-        % {\Large\bfseries\itshape\color{titlecolor} #1}
-        {\Large\bfseries\itshape #1}
-    \end{center}
-%    \vspace{0.001cm}
-}
-
-\newcommand{\docdate}[1]{%
-    \begin{center}
-        % {\large\itshape\color{titlecolor} #1}
-        {\large\itshape #1}
-    \end{center}
-   \vspace{0.001cm}
-}
-
 % End of package
 \endinput
