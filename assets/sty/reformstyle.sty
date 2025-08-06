@@ -54,6 +54,34 @@
     citecolor=blue
 }
 
+\newcommand{\subtitle}[1]{\gdef\@subtitle{#1}}
+\newcommand{\@subtitle}{}
+\renewcommand{\maketitle}{%
+    \begin{center}
+        {\Huge\bfseries \@title}\\[0.5em]
+        {\Huge\bfseries \itshape \@subtitle}\\[0.5em]
+        {\Large \@date}\\[0.2em]
+        {\large \@author}
+    \end{center}
+    \vspace{2em}
+}
+
+% Preamble environment for introductory text
+\newenvironment{preamble}{%
+    \begin{itshape}
+    \renewcommand{\textit}[1]{\textnormal{##1}}
+}{%
+    \end{itshape}
+    \vspace{2em}
+}
+
+\newcommand{\reformcopyright}[1]{%
+    \vspace{2cm}
+    \begin{center}
+        \textit{© #1 Union for Reform Chinese Culture. All rights reserved.}
+    \end{center}
+}
+
 % Custom commands for consistent formatting
 \newcommand{\doctitle}[1]{%
     \begin{center}
@@ -77,23 +105,6 @@
         {\large\itshape #1}
     \end{center}
    \vspace{0.001cm}
-}
-
-\newcommand{\reformcopyright}[1]{%
-    \vspace{2cm}
-    \begin{center}
-        \textit{© #1 Union for Reform Chinese Culture. All rights reserved.}
-    \end{center}
-}
-
-% Preamble environment for introductory text
-\newenvironment{preamble}{%
-    \vspace{1cm}
-    \begin{itshape}
-    \renewcommand{\textit}[1]{\textnormal{##1}}
-}{%
-    \end{itshape}
-    \vspace{1cm}
 }
 
 % End of package
