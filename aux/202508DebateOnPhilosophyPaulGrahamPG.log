@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  5 AUG 2025 23:12
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  6 AUG 2025 02:00
  system commands enabled.
  file:line:error style messages enabled.
 **/Users/brandonlu/Reform-Chinese-Culture.github.io/202508DebateOnPhilosophyPaulGrahamPG
@@ -773,19 +773,19 @@ Package rerunfilecheck Info: File `202508DebateOnPhilosophyPaulGrahamPG.out' has
 )
 
 Here is how much of LuaTeX's memory you used:
- 15486 strings out of 475506
- 156260,953878 words of node,token memory allocated
- 696 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 4 glue, 3 kern, 1 glyph, 90 attribute, 57 glue_spec, 14 attribute_list, 1 write, 6 user_defined, 1 pdf_action nodes
-   avail lists: 1:3,2:35743,3:186,4:322,5:366,6:57,7:6100,8:2,9:372,10:11,11:469
+ 15487 strings out of 475506
+ 156263,953878 words of node,token memory allocated
+ 727 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 5 glue, 3 kern, 1 glyph, 101 attribute, 57 glue_spec, 15 attribute_list, 1 write, 6 user_defined, 1 pdf_action nodes
+   avail lists: 1:2,2:38528,3:191,4:326,5:409,6:57,7:6544,8:2,9:376,10:11,11:518
  38194 multiletter control sequences out of 65536+600000
  67 fonts using 117861055 bytes
- 105i,11n,110p,889b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,12n,110p,979b,418s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </System/Library/Fonts/Supplemental/Songti.ttc></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on 202508DebateOnPhilosophyPaulGrahamPG.pdf (5 pages, 187341 bytes).
+Output written on 202508DebateOnPhilosophyPaulGrahamPG.pdf (5 pages, 189567 bytes).
 
-PDF statistics: 113 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 131072)
+PDF statistics: 116 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 131072)
  25 words of extra memory for PDF output out of 10000 (max. 100000000)
 
