@@ -50,3 +50,23 @@ div.epigraph .sidenote {
 div.epigraph .sidenote-number {
   font-style: normal;
 }
+
+/* Hover effects for sidenotes */
+label.sidenote-number:hover {
+  color: crimson;
+  cursor: pointer;
+}
+
+/* Sidenote content hover effects */
+.sidenote:hover {
+  color: crimson;
+}
+
+/* Connected hover effects using wrapper */
+.sidenote-wrapper:hover .sidenote {
+  color: crimson;
+}
+
+.sidenote-wrapper:hover .sidenote-number {
+  color: crimson;
+}
