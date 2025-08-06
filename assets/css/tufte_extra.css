@@ -18,8 +18,11 @@ p.attribution {
 }
 
 .reform-copyright {
-  margin-top: 3rem;
-  font-size: 0.8rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  color: #666;
+  text-align: center;
+  font-style: italic;
 }
 
 /* Home link and PDF link styling */
