@@ -42,6 +42,17 @@ p.date {
   color: crimson;
 }
 
+/* PDF link styling */
+.pdf-link {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  text-decoration-color: crimson;
+}
+
+.pdf-link:hover {
+  color: crimson;
+}
+
 /* Epigraph sidenote styling */
 div.epigraph .sidenote {
   font-style: normal;

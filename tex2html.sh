@@ -29,6 +29,9 @@ fi
 
 echo "Converting '$INPUT_FILE' to '$OUTPUT_FILE'..."
 
+# Extract filename without extension for PDF link
+FILENAME=$(basename "$INPUT_FILE" .tex)
+
 # Run pandoc conversion
 pandoc "$INPUT_FILE" \
   --from latex \
@@ -39,6 +42,7 @@ pandoc "$INPUT_FILE" \
   --css assets/css/tufte.css \
   --css assets/css/tufte_extra.css \
   --template assets/templates/tufte-template.html \
+  --variable filename="$FILENAME" \
   --output "$OUTPUT_FILE"
 
 if [ $? -eq 0 ]; then
