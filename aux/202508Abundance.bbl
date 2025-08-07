@@ -1,0 +1,256 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global/global}
+    \entry{governmentofcanadaFederalAccountabilityAct2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a7cce38e94664782bb0db6776392ae63}{%
+           family={{Government of Canada}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7cce38e94664782bb0db6776392ae63}
+      \strng{fullhash}{a7cce38e94664782bb0db6776392ae63}
+      \strng{fullhashraw}{a7cce38e94664782bb0db6776392ae63}
+      \strng{bibnamehash}{a7cce38e94664782bb0db6776392ae63}
+      \strng{authorbibnamehash}{a7cce38e94664782bb0db6776392ae63}
+      \strng{authornamehash}{a7cce38e94664782bb0db6776392ae63}
+      \strng{authorfullhash}{a7cce38e94664782bb0db6776392ae63}
+      \strng{authorfullhashraw}{a7cce38e94664782bb0db6776392ae63}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Federal laws of Canada}
+      \field{annotation}{Last Modified: 2011-12-31}
+      \field{day}{31}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{title}{Federal {{Accountability Act}} ({{S}}.{{C}}. 2006, c. 9)}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/brandonlu/Zotero/storage/W8M3RNDU/f-5.5.html
+      \endverb
+      \verb{urlraw}
+      \verb https://laws-lois.justice.gc.ca/eng/acts/f-5.5/
+      \endverb
+      \verb{url}
+      \verb https://laws-lois.justice.gc.ca/eng/acts/f-5.5/
+      \endverb
+    \endentry
+    \entry{huberAbundance99Percent2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b4e21895d934abffb18c0aafbd4193bd}{%
+           family={Huber},
+           familyi={H\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=330b31b8caaea65f5058cc1514517237}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={Leigh},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55e4fc8faf16a891af6880d67ad30f14}{%
+           family={Stafford},
+           familyi={S\bibinitperiod},
+           given={Fred},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5db465306b51b60753c78b2d41307346}
+      \strng{fullhash}{5db465306b51b60753c78b2d41307346}
+      \strng{fullhashraw}{5db465306b51b60753c78b2d41307346}
+      \strng{bibnamehash}{5db465306b51b60753c78b2d41307346}
+      \strng{authorbibnamehash}{5db465306b51b60753c78b2d41307346}
+      \strng{authornamehash}{5db465306b51b60753c78b2d41307346}
+      \strng{authorfullhash}{5db465306b51b60753c78b2d41307346}
+      \strng{authorfullhashraw}{5db465306b51b60753c78b2d41307346}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{MATT HUBER LEIGH PHILLIPS FRED STAFFORD}
+      \field{day}{2}
+      \field{entrysubtype}{magazine}
+      \field{journaltitle}{Jacobin}
+      \field{month}{8}
+      \field{title}{Abundance for the 99 {{Percent}}}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://jacobin.com/2025/08/klein-thompson-abundance-liberalism-socialism
+      \endverb
+      \verb{url}
+      \verb https://jacobin.com/2025/08/klein-thompson-abundance-liberalism-socialism
+      \endverb
+    \endentry
+    \entry{kleinAbundance2025}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6f48939716a0bc7d32938921d11cda23}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Ezra},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce6e4860c7f51e01fe5da48c24df108d}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={Derek},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Avid Reader Press, an imprint of Simon \& Schuster}%
+      }
+      \strng{namehash}{7c0c91a7d3dab96d4f831258f7e9172d}
+      \strng{fullhash}{7c0c91a7d3dab96d4f831258f7e9172d}
+      \strng{fullhashraw}{7c0c91a7d3dab96d4f831258f7e9172d}
+      \strng{bibnamehash}{7c0c91a7d3dab96d4f831258f7e9172d}
+      \strng{authorbibnamehash}{7c0c91a7d3dab96d4f831258f7e9172d}
+      \strng{authornamehash}{7c0c91a7d3dab96d4f831258f7e9172d}
+      \strng{authorfullhash}{7c0c91a7d3dab96d4f831258f7e9172d}
+      \strng{authorfullhashraw}{7c0c91a7d3dab96d4f831258f7e9172d}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{"Abundance is a once-in-a-generation, paradigm-shifting call to rethink big, entrenched problems that seem mired in systemic scarcity: from climate change to housing, education to healthcare"--}
+      \field{isbn}{978-1-6680-2348-8 978-1-6680-2349-5}
+      \field{pagetotal}{288}
+      \field{title}{Abundance}
+      \field{year}{2025}
+      \field{dateera}{ce}
+    \endentry
+    \entry{leppertGrowingShareAmericans2024}{online}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=588f7793d43f6e8019460b0aec0977b8}{%
+           family={Leppert},
+           familyi={L\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=043278e6a0f51cede7d9276333823f4f}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Pew Research Center}%
+      }
+      \strng{namehash}{0dd6edb3e7e33211a118f796ce603fb9}
+      \strng{fullhash}{0dd6edb3e7e33211a118f796ce603fb9}
+      \strng{fullhashraw}{0dd6edb3e7e33211a118f796ce603fb9}
+      \strng{bibnamehash}{0dd6edb3e7e33211a118f796ce603fb9}
+      \strng{authorbibnamehash}{0dd6edb3e7e33211a118f796ce603fb9}
+      \strng{authornamehash}{0dd6edb3e7e33211a118f796ce603fb9}
+      \strng{authorfullhash}{0dd6edb3e7e33211a118f796ce603fb9}
+      \strng{authorfullhashraw}{0dd6edb3e7e33211a118f796ce603fb9}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Americans remain more likely to favor expanding solar power (78\%) and wind power (72\%) than nuclear power (56\%).}
+      \field{day}{5}
+      \field{langid}{american}
+      \field{month}{8}
+      \field{title}{Growing Share of {{Americans}} Favor More Nuclear Power}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/brandonlu/Zotero/storage/S85WGIZH/majority-of-americans-support-more-nuclear-power-in-the-country.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pewresearch.org/short-reads/2024/08/05/majority-of-americans-support-more-nuclear-power-in-the-country/
+      \endverb
+      \verb{url}
+      \verb https://www.pewresearch.org/short-reads/2024/08/05/majority-of-americans-support-more-nuclear-power-in-the-country/
+      \endverb
+    \endentry
+    \entry{ministryofhousingcommunitiesandlocalgovernment16YearOlds2025}{online}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3bd72851b7fabc124d7561d6a708cbad}{%
+           family={{Ministry of Housing, Communities and Local Government}},
+           familyi={M\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=ec7efa0675bdeca3f70a2d1a55c0bb7c}{%
+           family={{Rushanara Ali MP}},
+           familyi={R\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=eebe26d90b7016a83f1edf48e0bec0c1}{%
+           family={{The Rt Hon Angela Rayner MP}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {GOV.UK}%
+      }
+      \strng{namehash}{86721d1a65044f7abcb976e156fce326}
+      \strng{fullhash}{86721d1a65044f7abcb976e156fce326}
+      \strng{fullhashraw}{86721d1a65044f7abcb976e156fce326}
+      \strng{bibnamehash}{86721d1a65044f7abcb976e156fce326}
+      \strng{authorbibnamehash}{86721d1a65044f7abcb976e156fce326}
+      \strng{authornamehash}{86721d1a65044f7abcb976e156fce326}
+      \strng{authorfullhash}{86721d1a65044f7abcb976e156fce326}
+      \strng{authorfullhashraw}{86721d1a65044f7abcb976e156fce326}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Sixteen year olds will be given the right to vote in all UK elections as part of seismic changes to modernise UK democracy}
+      \field{day}{17}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{title}{16 Year Olds to Be given Right to Vote through Election Reforms}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/brandonlu/Zotero/storage/TBZDRMXC/16-year-olds-to-be-given-right-to-vote-through-seismic-government-election-reforms.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.gov.uk/government/news/16-year-olds-to-be-given-right-to-vote-through-seismic-government-election-reforms
+      \endverb
+      \verb{url}
+      \verb https://www.gov.uk/government/news/16-year-olds-to-be-given-right-to-vote-through-seismic-government-election-reforms
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,2 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThe jsomers.net blog\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QAs one last attempt to justify socialism, they cited Vaheesan's argument that market failures are the main cause of slow deployment of nuclear energy: firms are unwilling to take on enormous up-front financial burdens to build nuclear infrastructure.\\E$"}

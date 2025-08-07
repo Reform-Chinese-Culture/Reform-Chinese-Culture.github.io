@@ -3,9 +3,11 @@
 \usepackage{assets/sty/reformstyle}
 \usepackage{hyperref}
 \usepackage{ellipsis}[Chicago]
-\usepackage{csquotes} 
-% Use \enquote{} for quotes
-% Use \begin{quotation} as a block quote
+\usepackage{csquotes}
+
+\usepackage[english]{babel}
+\usepackage[notes]{biblatex-chicago}
+\addbibresource{references.bib}
 
 \begin{document}
 
@@ -16,9 +18,9 @@
 \maketitle
 
 \begin{preamble}
- Paul Graham argued\footnote{Paul, Graham. \enquote{How to Do Philosophy.} Paul Graham Essays. Last modified September 2007. \href{https://www.paulgraham.com/philosophy.html}{https://www.paulgraham.com/philosophy.html}} for a more result- and utility-oriented approach to studying philosophy, against philosophers who wrote  ``word salads'' without practical implications. He then proposed a test of utility as an integral part of revolutionizing \emph{how to do philosophy}.
+ Paul Graham argued\footcite{grahamHowPhilosophy2007} for a more result- and utility-oriented approach to studying philosophy, against philosophers who wrote  ``word salads'' without practical implications. He then proposed a test of utility as an integral part of revolutionizing \emph{how to do philosophy}.
 
- James Somers defended\footnote{Somers, James. \enquote{A Defense of Philosophy (against Paul Graham).} Jsomers.net. n.d. \href{https://jsomers.net/pg-philosophy.html}{https://jsomers.net/pg-philosophy.html}} the discipline of philosophy, especially against the "word salad" critique; instead, he argued for the appropriate usage of complex jargonic language in philosophy. Furthermore, he argued that philosophy meets the test of utility, as Graham proposed.
+ James Somers defended\footcite{somersDefensePhilosophyPaul} the discipline of philosophy, especially against the "word salad" critique; instead, he argued for the appropriate usage of complex jargonic language in philosophy. Furthermore, he argued that philosophy meets the test of utility, as Graham proposed.
 
  This article aims to present both sides, and if possible, reconcile them.
 \end{preamble}
@@ -77,6 +79,10 @@ Further to arguing that pontificating upon complex words is useful for self-inqu
 In sum, it seems that Graham went too far with his claim that philosophy in the status quo is useless. It could instead be viewed as a natural progression that starts from being useless, much like how, before astronomy, there was astrology. Somers offered a good list of the usefulness of modern philosophy. Somers also explains the necessity of the so-called word salad, likening it to the use of complex mathematical terms.
 
 Turns out a word salad is just as healthy as a green salad after all.
+
+\section{References}
+
+\printbibliography[heading=none]
 
 \reformcopyright{2025}
 

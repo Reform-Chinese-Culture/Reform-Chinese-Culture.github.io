@@ -19,95 +19,77 @@
 
 \refsection{0}
   \datalist[entry]{cms/global//global/global/global}
-    \entry{althibyaniInvestigatingEffectStudents2023}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=6f8fb4e525e558fbb3a234dd00448ae4}{%
-           family={Althibyani},
-           familyi={A\bibinitperiod},
-           given={Hosam\bibnamedelima A.},
-           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5456f711084a85dfeb321a793fce1f59}{%
-           family={Al-Zahrani},
-           familyi={A\bibinithyphendelim Z\bibinitperiod},
-           given={Abdulrahman\bibnamedelima M.},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
+    \entry{googleGoogleScholar}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={{Google}},
+           familyi={G\bibinitperiod}}}%
       }
-      \strng{namehash}{206123e2553405220befafaa77a79ab7}
-      \strng{fullhash}{206123e2553405220befafaa77a79ab7}
-      \strng{fullhashraw}{206123e2553405220befafaa77a79ab7}
-      \strng{bibnamehash}{206123e2553405220befafaa77a79ab7}
-      \strng{authorbibnamehash}{206123e2553405220befafaa77a79ab7}
-      \strng{authornamehash}{206123e2553405220befafaa77a79ab7}
-      \strng{authorfullhash}{206123e2553405220befafaa77a79ab7}
-      \strng{authorfullhashraw}{206123e2553405220befafaa77a79ab7}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \list{organization}{1}{%
+        {Google Scholar}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhashraw}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhashraw}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The growing prevalence of cybercrime, particularly among young adults, necessitates the promotion of digital citizenship to educate students about responsible online behavior and to equip them with the skills to mitigate cyber risks. The specific objective of this study was to investigate the effect of digital citizenship skills on the prevention of cybercrime among higher education students. A mixed-method approach, including surveys and interviews, was employed to collect data from 652 students in Saudi Arabia. This study found that digital citizenship generally has a significant impact on students’ awareness and prevention of cybercrime through the development of responsible online behavior. Knowledge of digital law came first, followed by beliefs about digital manners. Digital communication skills came third, followed by digital rights, knowledge, and duties in fourth place. Then, digital commerce skills and digital health beliefs came fifth and sixth, respectively. This was followed by digital access skills, then digital security, and finally digital culture. The results also revealed a negative statistical relationship between digital citizenship and cybercrimes’ various forms including national, financial, banking, social, immoral, insulting, slanderous, defaming, threatening, and harassment in virtual learning environments. These findings have significant implications for the understanding of how higher education institutions can promote digital citizenship and prevent cybercrime by integrating digital citizenship education into their curriculum, providing training for educators, and establishing clear policies and guidelines for responsible online behavior.}
-      \field{day}{25}
-      \field{issn}{2071-1050}
-      \field{journaltitle}{Sustainability}
-      \field{langid}{english}
-      \field{month}{7}
-      \field{number}{15}
-      \field{shortjournal}{Sustainability}
-      \field{title}{Investigating the {{Effect}} of {{Students}}’ {{Knowledge}}, {{Beliefs}}, and {{Digital Citizenship Skills}} on the {{Prevention}} of {{Cybercrime}}}
-      \field{urlday}{13}
-      \field{urlmonth}{10}
-      \field{urlyear}{2024}
-      \field{volume}{15}
-      \field{year}{2023}
-      \field{dateera}{ce}
+      \field{title}{Google {{Scholar}}}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
       \field{urldateera}{ce}
-      \field{pages}{11512}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/su151511512
-      \endverb
       \verb{file}
-      \verb /Users/nasa_william_lu/Library/Mobile Documents/com~apple~CloudDocs/5_Miscellaneous/Zotero-pdf/Althibyani_Al-Zahrani_2023_Investigating the Effect of Students’ Knowledge, Beliefs, and Digital.pdf
+      \verb /Users/brandonlu/Zotero/storage/NZAEKFQA/scholar.google.ca.html
       \endverb
       \verb{urlraw}
-      \verb https://www.mdpi.com/2071-1050/15/15/11512
+      \verb https://scholar.google.ca/
       \endverb
       \verb{url}
-      \verb https://www.mdpi.com/2071-1050/15/15/11512
+      \verb https://scholar.google.ca/
       \endverb
     \endentry
-    \entry{einstein}{article}{}{}
+    \entry{somerYoureProbablyUsing}{online}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
-           family={Einstein},
-           familyi={E\bibinitperiod},
-           given={Albert},
-           giveni={A\bibinitperiod},
+        {{un=0,uniquepart=base,hash=34b5b92332fcaeba42c738673fc87534}{%
+           family={Somer},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
-      \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
-      \strng{fullhashraw}{3ebf53e52a3ce84f0ffb8553200a6a63}
-      \strng{bibnamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
-      \strng{authorbibnamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
-      \strng{authornamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
-      \strng{authorfullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
-      \strng{authorfullhashraw}{3ebf53e52a3ce84f0ffb8553200a6a63}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \list{organization}{1}{%
+        {The jsomers.net blog}%
+      }
+      \strng{namehash}{34b5b92332fcaeba42c738673fc87534}
+      \strng{fullhash}{34b5b92332fcaeba42c738673fc87534}
+      \strng{fullhashraw}{34b5b92332fcaeba42c738673fc87534}
+      \strng{bibnamehash}{34b5b92332fcaeba42c738673fc87534}
+      \strng{authorbibnamehash}{34b5b92332fcaeba42c738673fc87534}
+      \strng{authornamehash}{34b5b92332fcaeba42c738673fc87534}
+      \strng{authorfullhash}{34b5b92332fcaeba42c738673fc87534}
+      \strng{authorfullhashraw}{34b5b92332fcaeba42c738673fc87534}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Annalen der Physik}
-      \field{number}{10}
-      \field{title}{Zur {{Elektrodynamik}} Bewegter {{Körper}}}
-      \field{volume}{17}
-      \field{year}{1905}
-      \field{dateera}{ce}
-      \field{pages}{891\bibrangedash 921}
-      \range{pages}{31}
-      \verb{doi}
-      \verb 10.1002/andp.19053221004
+      \field{langid}{american}
+      \field{title}{You're Probably Using the Wrong Dictionary}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://jsomers.net/blog/dictionary
+      \endverb
+      \verb{url}
+      \verb https://jsomers.net/blog/dictionary
       \endverb
     \endentry
   \enddatalist
