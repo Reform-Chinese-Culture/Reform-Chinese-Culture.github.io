@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber aux/202508Abundance"] 1754577449.19425 "aux/202508Abundance.bcf" "aux/202508Abundance.bbl" "aux/202508Abundance" 1754577773.79523 0
-  "aux/202508Abundance.bcf" 1754577773.33159 160769 2732ca706465f592ce689b6d77164e9a "lualatex"
-  "references.bib" 1754577226.50653 3847 db2ec7d49bf5299e4ec0eafe38146b11 ""
+["biber aux/202508Abundance"] 1754579933.43472 "aux/202508Abundance.bcf" "aux/202508Abundance.bbl" "aux/202508Abundance" 1754579934.84327 0
+  "aux/202508Abundance.bcf" 1754579926.47976 160769 2732ca706465f592ce689b6d77164e9a "lualatex"
+  "references.bib" 1754579933.25077 3726 b6cda6c6214b1fafd02bdd403e1d00e9 ""
   (generated)
   "aux/202508Abundance.bbl"
   "aux/202508Abundance.blg"
   (rewritten before read)
-["lualatex"] 1754577770.2615 "/Users/brandonlu/Reform-Chinese-Culture.github.io/202508Abundance.tex" "aux/202508Abundance.pdf" "202508Abundance" 1754577773.79563 0
+["lualatex"] 1754579923.58434 "/Users/brandonlu/Reform-Chinese-Culture.github.io/202508Abundance.tex" "aux/202508Abundance.pdf" "202508Abundance" 1754579934.84331 0
   "/System/Library/Fonts/Supplemental/Songti.ttc" 1746337162 66933080 62b0bcdbc5e5126960b667dedb9c7b75 ""
   "/Users/brandonlu/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bolditalic.luc" 1754338725.21055 136491 57d9e2a74b597a71db0a3943169a8157 ""
   "/Users/brandonlu/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc" 1753248680.99193 136312 6547331b6da4bca63f5ef335e1edeaad ""
@@ -42,7 +42,7 @@
   "/Users/brandonlu/Library/texlive/2025/texmf-var/luatexja/ltj-cid-auto-adobe-japan1.luc" 1753259308.38671 1643763 c1ea8ddc02b30d60bd3941c236e2085b ""
   "/Users/brandonlu/Library/texlive/2025/texmf-var/luatexja/ltj-jisx0208.luc" 1753259308.63663 93919 1f6dc76354e6e3b148c06f9f9254f22e ""
   "/Users/brandonlu/Library/texlive/2025/texmf-var/luatexja/ltj-kinsoku_default.luc" 1753259308.62883 17654 e3e3c85f63c77f4caa824d338e2428e0 ""
-  "/Users/brandonlu/Reform-Chinese-Culture.github.io/202508Abundance.tex" 1754577769.78714 14719 7c5f36feab410ed6ee33d4261267ac8c ""
+  "/Users/brandonlu/Reform-Chinese-Culture.github.io/202508Abundance.tex" 1754579812.99378 14719 7c5f36feab410ed6ee33d4261267ac8c ""
   "/usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic.otf" 1255129361 118204 71070e299cf063366237473420b0fea8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf" 1255129361 118828 4d461c73423fe2666dad2ff0dfc3ca68 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf" 1255129361 111536 ae9d1b331000d544f47e5223081b7b54 ""
@@ -238,12 +238,12 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1753206666 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/tex/generic/config/language.dat" 1741450487 6800 9c9ef492eea78dd7e00ee60aa47828ff ""
   "/usr/local/texlive/2025/texmf-var/web2c/luahbtex/lualatex.fmt" 1741450571 5582742 9b17e6cd80d72c3778eef49dea7c0883 ""
-  "202508Abundance.tex" 1754577769.78714 14719 7c5f36feab410ed6ee33d4261267ac8c ""
+  "202508Abundance.tex" 1754579812.99378 14719 7c5f36feab410ed6ee33d4261267ac8c ""
   "assets/sty/reformstyle.sty" 1754559754.92121 2045 07fcb72ea52f7b210b08405b53021e8c ""
-  "aux/202508Abundance.aux" 1754577773.32309 2014 23d29be29655cb90649dcd8d9339a7ea "lualatex"
-  "aux/202508Abundance.bbl" 1754577450.77843 10519 efc73ceade8ef4c9d7b064eceef7928c "biber aux/202508Abundance"
-  "aux/202508Abundance.out" 1754577773.32844 93 e2b349429c454f1229ca81947420cf01 "lualatex"
-  "aux/202508Abundance.run.xml" 1754577773.33281 2465 e71fcbee28c34ff68d6c28d7696cd77b "lualatex"
+  "aux/202508Abundance.aux" 1754579926.47138 2014 80a8c2725fd7104056dd0c2b7114258b "lualatex"
+  "aux/202508Abundance.bbl" 1754579934.79591 10091 4bd41768871136dc5834fbf54e3466c5 "biber aux/202508Abundance"
+  "aux/202508Abundance.out" 1754579926.47671 93 e2b349429c454f1229ca81947420cf01 "lualatex"
+  "aux/202508Abundance.run.xml" 1754579926.4804 2465 e71fcbee28c34ff68d6c28d7696cd77b "lualatex"
   (generated)
   "aux/202508Abundance.aux"
   "aux/202508Abundance.bcf"

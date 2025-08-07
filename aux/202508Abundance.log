@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  7 AUG 2025 07:42
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  7 AUG 2025 08:18
  system commands enabled.
  file:line:error style messages enabled.
 **/Users/brandonlu/Reform-Chinese-Culture.github.io/202508Abundance.tex
@@ -1166,18 +1166,18 @@ Package logreq Info: Writing requests to '202508Abundance.run.xml'.
 
 Here is how much of LuaTeX's memory you used:
  26678 strings out of 475506
- 195460,1977958 words of node,token memory allocated
+ 195464,1977958 words of node,token memory allocated
  1548 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 23 glue, 3 kern, 1 glyph, 383 attribute, 68 glue_spec, 38 attribute_list, 1 write, 6 user_defined, 6 pdf_action nodes
-   avail lists: 1:7,2:48023,3:922,4:338,5:455,6:52,7:7877,8:117,9:400,10:39,11:552
+   avail lists: 1:9,2:46112,3:894,4:354,5:464,6:54,7:8075,8:117,9:424,10:34,11:566
  49217 multiletter control sequences out of 65536+600000
  71 fonts using 125176671 bytes
- 105i,11n,110p,1315b,4035s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,12n,110p,1315b,4035s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </System/Library/Fonts/Supplemental/Songti.ttc></System/Library/Fonts/Supplemental/Songti.ttc></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on 202508Abundance.pdf (7 pages, 351083 bytes).
+Output written on 202508Abundance.pdf (7 pages, 351001 bytes).
 
-PDF statistics: 196 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
+PDF statistics: 197 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
  40 named destinations out of 1000 (max. 131072)
  9 words of extra memory for PDF output out of 10000 (max. 100000000)
 
