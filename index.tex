@@ -5,6 +5,11 @@
 \usepackage{ellipsis}[Chicago]
 \usepackage{csquotes}
 
+% \usepackage{biblatex}
+% \usepackage[style=chicago, backend=biber, notes]{biblatex}
+\usepackage[english]{babel}
+\usepackage[notes,backend=biber]{biblatex-chicago}
+\addbibresource{references.bib}
 
 \begin{document}
 
@@ -16,16 +21,16 @@
 
 \section{What I Write}
 
-\href{202508Abundance.html}{Letter to the Editor: \textit{Abundance for the 99 Percent} in \textit{Jacobin}---Why centrism still works} August 4, 2025
+\href{202508Abundance.html}{Letter to the Editor: \textit{Abundance for the 99 Percent} in \textit{Jacobin}---Why centrism still works} August 4, 2025\footcite{einstein}
 
 \href{202508DebateOnPhilosophyPaulGrahamPG.html}{A Debate on How to Do
-Philosophy---Paul Graham vs. James Somers: Is philosophy more than a word salad?} August 5, 2025
+Philosophy---Paul Graham vs. James Somers: Is philosophy more than a word salad?} August 5, 2025\footcite{althibyaniInvestigatingEffectStudents2023}
 
 \section{What I Browse}
 
-Somers, James. \enquote{You're probably using the wrong dictionary.} \emph{the jsomers.net blog (May 18, 2014)}. \href{https://jsomers.net/blog/dictionary}{https://jsomers.net/blog/dictionary}\footnote{Arguing for a return of the original Webster's edition of dictionary which uses more livelier, classical, and context-specific language.}
+Somers, James.\ \enquote{You're probably using the wrong dictionary.}\ \emph{the jsomers.net blog (May 18, 2014)}.\ \href{https://jsomers.net/blog/dictionary}{https://jsomers.net/blog/dictionary}\footnote{Arguing for a return of the original Webster's edition of dictionary which uses more livelier, classical, and context-specific language.}
 
-Google. \emph{Google Scholar}. Google (n.d.). \href{https://scholar.google.ca}{https://scholar.google.ca}\footnote{Combined with your individual scholarship library subscription, a powerful search engine.}
+Google.\ \emph{Google Scholar}. Google (n.d.).\ \href{https://scholar.google.ca}{https://scholar.google.ca}\footnote{Combined with your individual scholarship library subscription, a powerful search engine.}
 
 \section{Mission}
 
@@ -78,5 +83,9 @@ The Union for Reform Chinese Culture (URCC) seeks to reform Chinese culture to a
 All rights reserved.
 
 \reformcopyright{2025}
+
+\section{References}
+
+\printbibliography[heading=none]
 
 \end{document}

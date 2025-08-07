@@ -5,7 +5,12 @@
       "Bash(./convert-to-tufte.sh:*)",
       "Bash(grep:*)",
       "WebFetch(domain:rstudio.github.io)",
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(pdflatex:*)",
+      "Bash(biber test:*)",
+      "Bash(lualatex:*)",
+      "Bash(pandoc:*)",
+      "Bash(./tex2html.sh:*)"
     ],
     "deny": []
   }
