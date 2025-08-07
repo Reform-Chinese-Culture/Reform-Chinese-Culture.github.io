@@ -1,16 +1,16 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is '/Users/brandonlu/Reform-Chinese-Culture.github.io/aux/index.blg'
-[42] biber-darwin:340> INFO - === Thu Aug  7, 2025, 04:03:32
-[56] Biber.pm:420> INFO - Reading '/Users/brandonlu/Reform-Chinese-Culture.github.io/aux/index.bcf'
-[128] Biber.pm:994> INFO - Found 2 citekeys in bib section 0
-[136] Biber.pm:4463> INFO - Processing section 0
-[143] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
-[206] bibtex.pm:1713> INFO - LaTeX decoding ...
+[40] biber-darwin:340> INFO - === Thu Aug  7, 2025, 04:52:38
+[53] Biber.pm:420> INFO - Reading '/Users/brandonlu/Reform-Chinese-Culture.github.io/aux/index.bcf'
+[125] Biber.pm:994> INFO - Found 2 citekeys in bib section 0
+[133] Biber.pm:4463> INFO - Processing section 0
+[140] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
+[204] bibtex.pm:1713> INFO - LaTeX decoding ...
 [734] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[800] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[800] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
-[800] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[799] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[799] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[799] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
 [800] Biber.pm:4283> INFO - Sorting list 'cms/global//global/global/global' of type 'entry' with template 'cms' and locale 'en-US'
 [800] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[804] bbl.pm:676> INFO - Writing '/Users/brandonlu/Reform-Chinese-Culture.github.io/aux/index.bbl' with encoding 'UTF-8'
+[805] bbl.pm:676> INFO - Writing '/Users/brandonlu/Reform-Chinese-Culture.github.io/aux/index.bbl' with encoding 'UTF-8'
 [805] bbl.pm:779> INFO - Output to /Users/brandonlu/Reform-Chinese-Culture.github.io/aux/index.bbl

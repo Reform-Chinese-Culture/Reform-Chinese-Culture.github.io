@@ -10,7 +10,9 @@
       "Bash(biber test:*)",
       "Bash(lualatex:*)",
       "Bash(pandoc:*)",
-      "Bash(./tex2html.sh:*)"
+      "Bash(./tex2html.sh:*)",
+      "Bash(chmod:*)",
+      "Bash(./tex2html_wo_bib.sh:*)"
     ],
     "deny": []
   }
