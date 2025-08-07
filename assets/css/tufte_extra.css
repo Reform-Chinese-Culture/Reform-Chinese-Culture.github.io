@@ -26,12 +26,12 @@ p.attribution {
 }
 
 /* Home link and PDF link styling */
-.reference-link {
+.page-link {
   text-decoration: underline;
   text-decoration-color: crimson;
 }
 
-.reference-link:hover {
+.page-link:hover {
   color: crimson;
 }
 
@@ -137,3 +137,20 @@ div.epigraph .sidenote-wrapper:hover .sidenote em,
 div.epigraph .sidenote-wrapper:hover .sidenote i {
   font-style: normal;
 }
+
+/* Bibliography styling to match body text */
+.references.csl-bib-body {
+  /* font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; */
+  font-size: 1.4rem;
+  width: 50%;
+  line-height: 2.8rem;
+  /* margin-top: 3rem; */
+}
+
+.csl-entry {
+  /* margin-bottom: 1.4rem; */
+  text-indent: -2rem;
+  padding-left: 2rem;
+}
+
+/* Remove any automatic bibliography headings since we use LaTeX sections */
