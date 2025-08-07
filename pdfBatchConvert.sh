@@ -21,4 +21,5 @@ done
 
 rm -rf aux/
 
-echo "Batch conversion to PDF complete! Folder aux/ removed!"
+echo "PDF Batch conversion complete!"
+echo "---"

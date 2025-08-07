@@ -31,8 +31,6 @@ else
     OUTPUT_BASE="$BASE_NAME"
 fi
 
-echo "Converting '$INPUT_FILE' to '$OUTPUT_FILE'..."
-
 # Run lualatex compilation (suppress output)
 latexmk -lualatex "$INPUT_FILE" > /dev/null 2>&1
 

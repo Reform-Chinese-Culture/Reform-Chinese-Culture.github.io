@@ -13,10 +13,15 @@
 \RequirePackage{titlesec}
 \RequirePackage{xcolor}
 
-% Set Chinese fonts for macOS with explicit font settings
-\setCJKmainfont[BoldFont={Songti SC Black}, ItalicFont={Songti SC Light}]{Songti SC}
-\setCJKsansfont[BoldFont={PingFang SC Semibold}]{PingFang SC}
-\setCJKmonofont{Heiti SC Medium}
+\RequirePackage{csquotes} % Required for {quotation}
+\RequirePackage{ellipsis}[Chicago]
+\RequirePackage{setspace} % Reqired for double-spacing
+\RequirePackage[english]{babel} % Required for biblatex-chicago
+
+% % Set Chinese fonts for macOS with explicit font settings
+% \setCJKmainfont[BoldFont={Songti SC Black}]{Songti SC}
+% \setCJKsansfont[BoldFont={PingFang SC Semibold}]{PingFang SC}
+% \setCJKmonofont{Heiti SC Medium}
 
 % Page geometry
 \geometry{
@@ -26,10 +31,6 @@
     top=3cm,
     bottom=3cm
 }
-
-% Color definitions
-\definecolor{titlecolor}{RGB}{44, 62, 80}
-\definecolor{datecolor}{RGB}{127, 140, 141}
 
 % Page style
 \pagestyle{fancy}
@@ -75,11 +76,25 @@
     \vspace{2em}
 }
 
+% Copy right command
 \newcommand{\reformcopyright}[1]{%
     \vspace{2cm}
     \begin{center}
         \textit{© #1 Union for Reform Chinese Culture. All rights reserved.}
     \end{center}
 }
+
+% Double-spacing for document
+\doublespacing
+% Single-spacing for bibliography and footnotes
+\AtBeginDocument {%
+    \@ifpackageloaded{biblatex-chicago}{%
+        \renewcommand*{\bibfont}{\singlespacing}
+    }{}
+}
+% Single-spacing for footnotes
+\setlength{\footnotesep}{0.5\baselineskip}
+\renewcommand{\footnotesize}{\singlespacing}
+
 % End of package
 \endinput

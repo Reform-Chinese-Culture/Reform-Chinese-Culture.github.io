@@ -19,4 +19,5 @@ for tex_file in *.tex; do
     fi
 done
 
-echo "Batch conversion complete!"
+echo "HTML Batch conversion complete!"
+echo "---"

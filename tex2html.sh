@@ -30,7 +30,7 @@ fi
 # Check if the file uses biblatex-chicago (exclude commented lines, allow whitespace before \usepackage)
 if grep -q '^[[:space:]]*\\usepackage\[notes\]{biblatex-chicago}' "$INPUT_FILE"; then
     if ./tex2html_bib.sh "$INPUT_FILE" "$OUTPUT_FILE" > /dev/null; then
-        echo "Converted $INPUT_FILE into html with bib"
+        echo "✓ Converted $INPUT_FILE into html with bib"
     else
         echo "✗ Conversion with bib failed"
         ./tex2html_bib.sh "$INPUT_FILE" "$OUTPUT_FILE"
@@ -38,7 +38,7 @@ if grep -q '^[[:space:]]*\\usepackage\[notes\]{biblatex-chicago}' "$INPUT_FILE";
     fi
 else
     if ./tex2html_wo_bib.sh "$INPUT_FILE" "$OUTPUT_FILE" > /dev/null; then
-        echo "Converted $INPUT_FILE into html without bib"
+        echo "✓ Converted $INPUT_FILE into html without bib"
     else
         echo "✗ Conversion without bib failed"
         ./tex2html_wo_bib.sh "$INPUT_FILE" "$OUTPUT_FILE"
