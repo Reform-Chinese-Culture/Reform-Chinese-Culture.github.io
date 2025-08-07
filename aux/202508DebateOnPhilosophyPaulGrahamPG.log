@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  7 AUG 2025 01:25
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  7 AUG 2025 01:56
  system commands enabled.
  file:line:error style messages enabled.
 **/Users/brandonlu/Reform-Chinese-Culture.github.io/202508DebateOnPhilosophyPaulGrahamPG
@@ -673,16 +673,16 @@ Package hyperref Info: Link coloring ON on input line 10.
 *geometry* detected driver: luatex
 *geometry* verbose mode - [ preamble ] result:
 * driver: luatex
-* paper: a4paper
+* paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=426.79135pt
-* \textheight=674.33032pt
+* h-part:(L,W,R)=(85.35826pt, 443.57848pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 624.25346pt, 85.35826pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=443.57848pt
+* \textheight=624.25346pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
 * \topmargin=-23.91173pt
@@ -769,15 +769,15 @@ Package rerunfilecheck Info: File `202508DebateOnPhilosophyPaulGrahamPG.out' has
 
 Here is how much of LuaTeX's memory you used:
  15484 strings out of 475506
- 156254,953878 words of node,token memory allocated
+ 156258,953878 words of node,token memory allocated
  697 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 5 glue, 3 kern, 1 glyph, 90 attribute, 57 glue_spec, 14 attribute_list, 1 write, 6 user_defined nodes
-   avail lists: 1:2,2:38504,3:194,4:320,5:424,6:58,7:6721,8:2,9:376,10:11,11:533
+   avail lists: 1:2,2:38914,3:185,4:311,5:409,6:56,7:6181,8:2,9:365,10:10,11:479
  38191 multiletter control sequences out of 65536+600000
  67 fonts using 117861055 bytes
- 105i,12n,110p,979b,418s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,11n,110p,979b,474s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </System/Library/Fonts/Supplemental/Songti.ttc></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on 202508DebateOnPhilosophyPaulGrahamPG.pdf (5 pages, 189715 bytes).
+Output written on 202508DebateOnPhilosophyPaulGrahamPG.pdf (5 pages, 189590 bytes).
 
 PDF statistics: 115 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
