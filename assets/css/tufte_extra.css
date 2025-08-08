@@ -150,7 +150,7 @@ div.epigraph .sidenote-wrapper:hover .sidenote i {
 /* Bibliography styling to match body text */
 .references.csl-bib-body {
   /* font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; */
-  font-size: 15px;
+  font-size: 1.4rem;
   width: 50%;
   /* line-height: 2; */
 }
