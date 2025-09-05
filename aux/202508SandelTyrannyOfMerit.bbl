@@ -1,0 +1,158 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global/global}
+    \entry{bridgesTYRANNYRACEBLINDNESS2021}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=20060341ac3180627ee720c4997e4e93}{%
+           family={Bridges},
+           familyi={B\bibinitperiod},
+           given={Khiara\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{20060341ac3180627ee720c4997e4e93}
+      \strng{fullhash}{20060341ac3180627ee720c4997e4e93}
+      \strng{fullhashraw}{20060341ac3180627ee720c4997e4e93}
+      \strng{bibnamehash}{20060341ac3180627ee720c4997e4e93}
+      \strng{authorbibnamehash}{20060341ac3180627ee720c4997e4e93}
+      \strng{authornamehash}{20060341ac3180627ee720c4997e4e93}
+      \strng{authorfullhash}{20060341ac3180627ee720c4997e4e93}
+      \strng{authorfullhashraw}{20060341ac3180627ee720c4997e4e93}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2694-5711}
+      \field{issue}{Journal Article}
+      \field{journaltitle}{American journal of law and equality}
+      \field{langid}{english}
+      \field{title}{{{THE TYRANNY OF RACE BLINDNESS Comment}} on {{M}}. {{Sandel}}'s {{The Tyranny}} of {{Merit}}}
+      \field{volume}{1}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{46\bibrangedash 51}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1162/ajle_a_00009
+      \endverb
+      \verb{urlraw}
+      \verb https://go.exlibris.link/yD42wwCB
+      \endverb
+      \verb{url}
+      \verb https://go.exlibris.link/yD42wwCB
+      \endverb
+    \endentry
+    \entry{plattnerTyrannyMeritWhats2021}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a52c4a47ffb92ffb9a9b300acc137949}{%
+           family={Plattner},
+           familyi={P\bibinitperiod},
+           given={Marc\bibnamedelima F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Baltimore}%
+      }
+      \list{publisher}{1}{%
+        {Johns Hopkins University Press}%
+      }
+      \strng{namehash}{a52c4a47ffb92ffb9a9b300acc137949}
+      \strng{fullhash}{a52c4a47ffb92ffb9a9b300acc137949}
+      \strng{fullhashraw}{a52c4a47ffb92ffb9a9b300acc137949}
+      \strng{bibnamehash}{a52c4a47ffb92ffb9a9b300acc137949}
+      \strng{authorbibnamehash}{a52c4a47ffb92ffb9a9b300acc137949}
+      \strng{authornamehash}{a52c4a47ffb92ffb9a9b300acc137949}
+      \strng{authorfullhash}{a52c4a47ffb92ffb9a9b300acc137949}
+      \strng{authorfullhashraw}{a52c4a47ffb92ffb9a9b300acc137949}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The deep causes of populist dissatisfaction, which no doubt combine economic, sociological, and cultural factors, are not easy to sort out. [.]in the United States at least, the disjunction between the post–World War II era and more recent decades is not nearly as sharp as Sandel makes it out to be. According to his view, those who reap greater prosperity (or gain admission to elite colleges) generally believe that their success is due to their own ability and hard work, but that does not mean that they deserve these rewards. The notion of desert seems not to apply in these cases” (p. 130). Since the distribution of both talent and effort is “arbitrary from a moral point of view,” those who possess them in greater amounts have no moral claim to the enhanced benefits that they bring (p. 130). Since that is the case, Rawls can construct a vision of the just society in which “social and economic inequalities are to be arranged so that they are to the greatest benefit of the least advantaged.”}
+      \field{issn}{1045-5736;1086-3214;}
+      \field{journaltitle}{Journal of democracy}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{The {{Tyranny}} of {{Merit}}: {{What}}’s {{Become}} of the {{Common Good}}? By {{Michael J}}. {{Sandel}} (Review)}
+      \field{volume}{32}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{155\bibrangedash 159}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1353/jod.2021.0007
+      \endverb
+      \verb{urlraw}
+      \verb https://go.exlibris.link/vzM9MRkK
+      \endverb
+      \verb{url}
+      \verb https://go.exlibris.link/vzM9MRkK
+      \endverb
+      \keyw{Ability,College admissions,Common good,Cultural factors,Despotism,Disjunction,Economic inequality,Economics,Employment,Families & family life,Globalization,Meritocracy,Nonfiction,Politics,Populism,Rewards,Social inequality,Society,Success,Working class,World War II}
+    \endentry
+    \entry{sandelTyrannyMeritWhats2020}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fdf1c698030d55e4f99fbe10740a0f4d}{%
+           family={Sandel},
+           familyi={S\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Farrar, Straus and Giroux}%
+      }
+      \strng{namehash}{fdf1c698030d55e4f99fbe10740a0f4d}
+      \strng{fullhash}{fdf1c698030d55e4f99fbe10740a0f4d}
+      \strng{fullhashraw}{fdf1c698030d55e4f99fbe10740a0f4d}
+      \strng{bibnamehash}{fdf1c698030d55e4f99fbe10740a0f4d}
+      \strng{authorbibnamehash}{fdf1c698030d55e4f99fbe10740a0f4d}
+      \strng{authornamehash}{fdf1c698030d55e4f99fbe10740a0f4d}
+      \strng{authorfullhash}{fdf1c698030d55e4f99fbe10740a0f4d}
+      \strng{authorfullhashraw}{fdf1c698030d55e4f99fbe10740a0f4d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{"The world-renowned philosopher and author of the bestselling Justice explores the central question of our time: What has become of the common good? These are dangerous times for democracy. We live in an age of winners and losers, where the odds are stacked in favor of the already fortunate. Stalled social mobility and entrenched inequality give the lie to the American credo that "you can make it if you try". The consequence is a brew of anger and frustration that has fueled populist protest and extreme polarization, and led to deep distrust of both government and our fellow citizens--leaving us morally unprepared to face the profound challenges of our time. World-renowned philosopher Michael J. Sandel argues that to overcome the crises that are upending our world, we must rethink the attitudes toward success and failure that have accompanied globalization and rising inequality. Sandel shows the hubris a meritocracy generates among the winners and the harsh judgment it imposes on those left behind, and traces the dire consequences across a wide swath of American life. He offers an alternative way of thinking about success--more attentive to the role of luck in human affairs, more conducive to an ethic of humility and solidarity, and more affirming of the dignity of work. The Tyranny of Merit points us toward a hopeful vision of a new politics of the common good"--}
+      \field{edition}{First}
+      \field{isbn}{0374289980;9780374289980;}
+      \field{langid}{english}
+      \field{number}{Book, Whole}
+      \field{title}{The Tyranny of Merit: What's Become of the Common Good?}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://us.macmillan.com/books/9780374289980/thetyrannyofmerit/
+      \endverb
+      \verb{url}
+      \verb https://us.macmillan.com/books/9780374289980/thetyrannyofmerit/
+      \endverb
+      \keyw{Globalization,Merit (Ethics),Polarization (Social sciences),Political aspects,Populism,Public interest,Social aspects,Social conditions,Social mobility}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
