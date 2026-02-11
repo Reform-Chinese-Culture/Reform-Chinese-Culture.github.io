@@ -17,7 +17,7 @@ $lualatex = 'lualatex -shell-escape -synctex=1 -interaction=nonstopmode -file-li
 
 # Clean up auxiliary files but keep PDF in main directory
 # Copy PDF from aux/ to main directory after compilation
-$success_cmd = 'cp aux/%R.pdf .';
+# $success_cmd = 'cp aux/%R.pdf .';
 
 # Define which file extensions to clean with latexmk -c
 # $clean_ext = 'aux bcf blg fdb_latexmk fls log out run.xml synctex.gz';

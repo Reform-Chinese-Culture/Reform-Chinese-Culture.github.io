@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# tex2html.sh - Convert LaTeX to HTML using pandoc with automatic biblatex detection
+# ./assets/conversion_sh/tex2html.sh - Convert LaTeX to HTML using pandoc with automatic biblatex detection
 # Usage: 
-#   ./tex2html.sh input.tex output.html  (specify output filename)
-#   ./tex2html.sh input.tex              (output will be input.html)
+#   ./assets/conversion_sh/tex2html.sh input.tex output.html  (specify output filename)
+#   ./assets/conversion_sh/tex2html.sh input.tex              (output will be input.html)
 
 if [ $# -eq 0 ]; then
     echo "Usage: $0 input.tex [output.html]"
@@ -29,19 +29,19 @@ fi
 
 # Check if the file uses biblatex-chicago (exclude commented lines, allow whitespace before \usepackage)
 if grep -q '^[[:space:]]*\\usepackage\[notes\]{biblatex-chicago}' "$INPUT_FILE"; then
-    if ./tex2html_bib.sh "$INPUT_FILE" "$OUTPUT_FILE" > /dev/null; then
+    if ./assets/conversion_sh/tex2html_bib.sh "$INPUT_FILE" "$OUTPUT_FILE" > /dev/null; then
         echo "✓ Converted $INPUT_FILE into html with bib"
     else
         echo "✗ Conversion with bib failed"
-        ./tex2html_bib.sh "$INPUT_FILE" "$OUTPUT_FILE"
+        ./assets/conversion_sh/tex2html_bib.sh "$INPUT_FILE" "$OUTPUT_FILE"
         exit 1
     fi
 else
-    if ./tex2html_wo_bib.sh "$INPUT_FILE" "$OUTPUT_FILE" > /dev/null; then
+    if ./assets/conversion_sh/tex2html_wo_bib.sh "$INPUT_FILE" "$OUTPUT_FILE" > /dev/null; then
         echo "✓ Converted $INPUT_FILE into html without bib"
     else
         echo "✗ Conversion without bib failed"
-        ./tex2html_wo_bib.sh "$INPUT_FILE" "$OUTPUT_FILE"
+        ./assets/conversion_sh/tex2html_wo_bib.sh "$INPUT_FILE" "$OUTPUT_FILE"
         exit 1
     fi
 fi

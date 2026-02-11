@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# tex2html_wo_bib.sh - Convert LaTeX to HTML using pandoc directly (no biblatex)
+# ./assets/conversion_sh/tex2html_wo_bib.sh - Convert LaTeX to HTML using pandoc directly (no biblatex)
 # Usage: 
-#   ./tex2html_wo_bib.sh input.tex output.html  (specify output filename)
-#   ./tex2html_wo_bib.sh input.tex              (output will be input.html)
+#   ./assets/conversion_sh/tex2html_wo_bib.sh input.tex output.html  (specify output filename)
+#   ./assets/conversion_sh/tex2html_wo_bib.sh input.tex              (output will be input.html)
 
 if [ $# -eq 0 ] || [ $# -gt 2 ]; then
     echo "Usage: $0 input.tex [output.html]"

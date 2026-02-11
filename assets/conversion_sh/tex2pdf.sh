@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# tex2pdf.sh - Convert LaTeX to PDF using lualatex with cleanup
+# ./assets/conversion_sh/tex2pdf.sh - Convert LaTeX to PDF using lualatex with cleanup
 # Usage: 
-#   ./tex2pdf.sh input.tex output.pdf  (specify output filename)
-#   ./tex2pdf.sh input.tex             (output will be input.pdf)
+#   ./assets/conversion_sh/tex2pdf.sh input.tex output.pdf  (specify output filename)
+#   ./assets/conversion_sh/tex2pdf.sh input.tex             (output will be input.pdf)
 
 if [ $# -eq 0 ]; then
     echo "Usage: $0 input.tex [output.pdf]"

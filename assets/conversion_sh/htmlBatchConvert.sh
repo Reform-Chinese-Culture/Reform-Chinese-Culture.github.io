@@ -1,15 +1,15 @@
 #!/bin/bash
 
-# pdfBatchConvert.sh - Converts all tex files to PDF using the conversion program
+# ./assets/conversion_sh/htmlBatchConvert.sh - Converts all tex files to HTML using the conversion program
 
 for tex_file in *.tex; do
     if [ -f "$tex_file" ]; then
         # Get the base name without extension
         base_name=$(basename "$tex_file" .tex)
-        pdf_file="${base_name}.pdf"
+        html_file="./assets/output/${base_name}.html"
                 
         # Run the conversion program with tex file and html file as arguments
-        ./tex2pdf.sh "$tex_file" "$pdf_file"
+        ./assets/conversion_sh/tex2html.sh "$tex_file" "$html_file"
         
         if [ $? -eq 0 ]; then
             echo ""
@@ -19,7 +19,5 @@ for tex_file in *.tex; do
     fi
 done
 
-rm -rf aux/
-
-echo "PDF Batch conversion complete!"
+echo "HTML Batch conversion complete!"
 echo "---"
