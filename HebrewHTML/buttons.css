@@ -1,0 +1,138 @@
+/* UI toggle */
+.controls {
+	position: sticky;
+	overflow: hidden;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 10px;
+	padding-right: 14px;
+	padding-left: 14px;
+	top: 0;
+	z-index: 10;
+	direction: ltr;
+	text-align: right;
+	padding: 12px 0;
+	border-radius: 18px;
+
+	/* glass */
+	background: rgba(255, 255, 255, 0.14);
+	backdrop-filter: blur(22px) saturate(190%) contrast(110%);
+	-webkit-backdrop-filter: blur(22px) saturate(190%) contrast(110%);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.38);
+	box-shadow:
+		0 18px 40px rgba(0, 0, 0, 0.10),
+		inset 0 1px 0 rgba(255, 255, 255, 0.40);
+}
+
+.controls .title {
+	font-family: "DejaVu Sans", "SBL Hebrew", "Ezra SIL", serif;
+	padding-right: 30px;
+	font-size: 2em;
+	color: rgba(0, 0, 0, 0.78);
+}
+
+.controls::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	border-radius: inherit;
+	pointer-events: none;
+	/* specular highlight */
+	background:
+		radial-gradient(140% 90% at 10% 0%, rgba(255, 255, 255, 0.70), rgba(255, 255, 255, 0) 60%),
+		radial-gradient(120% 80% at 90% 120%, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0) 55%);
+	opacity: 0.9;
+	mix-blend-mode: screen;
+}
+
+.controls::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+	border-radius: inherit;
+	/* subtle inner depth toward the bottom */
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.10));
+	opacity: 0.35;
+}
+
+.toggle-btn {
+	font: 600 14px/1.2 system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+	padding: 9px 13px;
+	border-radius: 12px;
+	cursor: pointer;
+
+	position: relative;
+	overflow: hidden;
+
+	/* glass button */
+	color: rgba(0, 0, 0, 0.84);
+	background: rgba(255, 255, 255, 0.18);
+	backdrop-filter: blur(16px) saturate(200%) contrast(110%);
+	-webkit-backdrop-filter: blur(16px) saturate(200%) contrast(110%);
+	border: 1px solid rgba(255, 255, 255, 0.42);
+	box-shadow:
+		0 10px 24px rgba(0, 0, 0, 0.14),
+		inset 0 1px 0 rgba(255, 255, 255, 0.60),
+		inset 0 -1px 0 rgba(0, 0, 0, 0.08);
+}
+
+.toggle-btn::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+	border-radius: inherit;
+	/* glossy top sheen */
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0) 55%);
+	opacity: 0.85;
+}
+
+.toggle-btn::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+	border-radius: inherit;
+	/* faint refractive noise */
+	background:
+		radial-gradient(60% 80% at 20% 20%, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0) 60%),
+		radial-gradient(70% 90% at 80% 80%, rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0) 65%);
+	opacity: 0.65;
+}
+
+.toggle-btn:hover {
+	border-color: rgba(255, 255, 255, 0.55);
+	box-shadow:
+		0 12px 28px rgba(0, 0, 0, 0.16),
+		inset 0 1px 0 rgba(255, 255, 255, 0.70),
+		inset 0 -1px 0 rgba(0, 0, 0, 0.10);
+}
+
+.toggle-btn:active {
+	transform: scale(0.98);
+	box-shadow:
+		0 6px 16px rgba(0, 0, 0, 0.16),
+		inset 0 1px 0 rgba(255, 255, 255, 0.70),
+		inset 0 -1px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* When enabled, hide transliteration tier */
+.hide-tr .tr {
+	visibility: hidden;
+}
+
+.hide-gl .gl {
+	visibility: hidden;
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+	.controls {
+		background: rgba(255, 255, 255, 0.95);
+	}
+
+	.toggle-btn {
+		background: rgba(255, 255, 255, 0.95);
+	}
+}

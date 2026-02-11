@@ -1,0 +1,77 @@
+body {
+	padding: 0 2em;
+}
+
+.lineunit {
+	direction: rtl;
+	margin: 0.33em 0 0.67em;
+	break-inside: avoid;
+	font-size: clamp(30px, 3vw, 40px);
+}
+
+.wrapspec {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 1em;
+	row-gap: 0.05em;
+	align-items: flex-start;
+}
+
+.wordunit {
+	display: grid;
+	row-gap: 0;
+}
+
+.he {
+	font-size: 1em;
+	line-height: 1;
+	font-family: "DejaVu Sans", "SBL Hebrew", "Ezra SIL", serif;
+	white-space: nowrap;
+}
+
+.tr {
+	font-size: 0.55em;
+	line-height: 1;
+	font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+	font-style: italic;
+	opacity: 0.80;
+	white-space: nowrap;
+}
+
+.gl {
+	font-size: 0.45em;
+	line-height: 1;
+	font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+	opacity: 0.55;
+	max-width: 22ch;
+}
+
+.ltr {
+	direction: ltr;
+	unicode-bidi: isolate;
+	overflow-wrap: anywhere;
+}
+
+/* =====================
+   Print/PDF configuration
+   ===================== */
+@media print {
+	@page {
+		margin: 0;
+	}
+
+	body {
+		padding: 0;
+	}
+
+	.lineunit {
+		font-size: 50px;
+	}
+
+	/* Hide on-screen UI when printing */
+	.controls,
+	button,
+	.toggle-btn {
+		display: none !important;
+	}
+}
